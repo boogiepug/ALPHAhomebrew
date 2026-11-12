@@ -1,0 +1,585 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "RealmsBeyondTime",
+				"abbreviation": "ALPHA",
+				"full": "Realms Beyond Time",
+				"version": "1.0.0",
+				"authors": [
+					"Phi",
+					"Szymon",
+					"Nairod",
+					"Sora",
+					"DOmino"
+				],
+				"convertedBy": [
+					"Szymon"
+				],
+				"color": "836b63",
+				"colorNight": "9f9e80"
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Anti-impetum Robe",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"The fabric pulls gently against sudden motion, as if urging caution.",
+				"You have 15 AC against melee attacks. When a melee attack misses you, roll damage for that attack anyway and gain that many Temporary Hit Points."
+			]
+		},
+		{
+			"name": "Amulet of Cutting Missiles",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Mages recognize the Amulet of Cutting Missiles by the faint sparks that dance across its setting.",
+				"You can cast {@spell Magic Missile} at its lowest level once per day without expending a spell slot. Each of your Magic Missile darts do +1 additional Force damage."
+			],
+			"attachedSpells": [
+				"magic missile"
+			]
+		},
+		{
+			"name": "Amulet of Rejuvenation",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This amulet beats faintly like a second pulse against the chest.",
+				"You can cast {@spell Healing Word} at its lowest level once per day without expending a spell slot. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
+			],
+			"attachedSpells": [
+				"healing word"
+			]
+		},
+		{
+			"name": "Arcane Conduit Staff",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"entries": [
+				"Polished and regal, it carries the strange confidence of a ruler who claims kindness and victory alike.",
+				"This {@item +1 Quarterstaff} lets you channel magical energies through your allies. Any spell that can be cast from your position can instead be cast from the position of a willing ally or friendly creature within 60 feet of you."
+			]
+		},
+		{
+			"name": "Argaz's Circus Sash",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This brightly colored sash flies impressively behind its wearer's tumbling and springing.",
+				"Add your Proficiency Bonus to Acrobatics checks. If you are already proficient in {@skill Acrobatics}, add your Proficiency Bonus a second time. As a Bonus action, you can roll an {@skill Acrobatics} check DC 20 to ignore {@quickref difficult terrain||3} and move along vertical surfaces as if they are horizontal until the end of turn."
+			]
+		},
+		{
+			"name": "Armor of Many Pelts",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "hide armor|PHB",
+			"type": "MA",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 12,
+			"ac": 12,
+			"bonusAc": "+1",
+			"entries": [
+				"Layers of fur whisper of a hundred beasts that once ruled the wild.",
+				"This Hide Armor grants +1 to the wearer's Armor Class even while in Wild Shape forms. You also gain +1 to your Spell Save DC and one additional use of Wild Shape per day."
+			]
+		},
+		{
+			"name": "Barroom Hustler Dart",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "dart|PHB",
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 0.25,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"Light, balanced, and clearly thrown by someone who never planned to lose the wager.",
+				"This {@item Dart|PHB} deals {@damage 1d4} Force damage and always hits its target. The {@item Dart|PHB} disappears on impact to reappear in your hand. Attacks with this weapon cannot have their damage increased by any means."
+			]
+		},
+		{
+			"name": "Blade of the Warden",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"entries": [
+				"Its steady edge reflects the calm resolve of one who never abandons their post.",
+				"This {@item +1 Longsword} defends its user. As a Reaction, you can parry a melee attack and gain +2 AC against that attack."
+			]
+		},
+		{
+			"name": "Blinding Buckler",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "uncommon",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"A sudden flash from its mirrored face leaves foes grasping at empty air.",
+				"As a Bonus action, you can cast {@spell Color Spray} with a spell save DC of 15 once per day without expending a spell slot."
+			],
+			"attachedSpells": [
+				"color spray"
+			]
+		},
+		{
+			"name": "Bogle Egg Sac",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"The lumpy sac pulses faintly, as though the mischief inside is already waiting to escape.",
+				"Once per day, as a ritual spell, you can pull one of the slimy eggs from this sac and throw it to the ground. It will immediately hatch into a {@creature bogle|RealmsBeyondTime}, who will follow your spoken commands."
+			]
+		},
+		{
+			"name": "Boots of the Early Mist",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"The leather is always cool with dew, as if the dawn itself still walks beside you.",
+				"You can cast {@spell Misty Step} once per day without expending a spell slot."
+			],
+			"attachedSpells": [
+				"misty step"
+			]
+		},
+		{
+			"name": "Bow of Blasting",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "longbow|PHB",
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"entries": [
+				"When its string snaps taut, the air itself seems to flinch.",
+				"This {@item +1 Longbow} can fire normal ammunition, but when drawn empty it fires a shimmering arrow that deals {@dice 1d6} plus your Dexterity modifier Force damage. All creatures within 5 feet of the target also take {@damage 1d4} Force damage."
+			],
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Corvid Glove",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Black leather feathers the wrist, and sometimes the glove seems to move on its own.",
+				"You can cast {@spell Mage Hand} once per day. Whenever you cast {@spell Mage Hand}, both the range of Mage Hand and the movement of the hand are increased to 60 feet. You can roll {@skill Sleight of Hand} checks through the hand when you do so through this glove."
+			],
+			"attachedSpells": [
+				"mage hand"
+			]
+		},
+		{
+			"name": "Courier's Cap",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Couriers travel without fear of robbery or inspection while wearing this well-worn peaked cap.",
+				"Contains an interdimensional space inside large enough for a single Small or Tiny object. Once per day, you can gain +10 feet to your Speed for up to 1 minute."
+			]
+		},
+		{
+			"name": "Brutal Sapper",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "mace|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"entries": [
+				"The spines of this {@item mace|PHB} are made from a dark, porous metal that seems to resent every blow that doesn't end the fight.",
+				"Enemies struck by this {@item Mace|PHB} cannot recover Hit Points until the beginning of your next turn."
+			]
+		},
+		{
+			"name": "Card Shark's Bracers",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"The leather is worn smooth by a thousand strikes and just as many losing bets.",
+				"Gain Proficiency in Sleight of Hand. Your Dexterity is 14 while you wear these bracers. They have no effect on you if your Dexterity is already 14 or higher without them."
+			]
+		},
+		{
+			"name": "Chronomancer's Orb",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Within the glass, moments swirl like dust caught in slow light.",
+				"As a Bonus Action, you can return a target to its position prior to its most recent Move action. If that space is now occupied, the target appears in the nearest unoccupied space. You can use this ability once per day. This item can act as a Spellcasting Focus."
+			]
+		},
+		{
+			"name": "Eternal Promise Ring",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "RG|DMG",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				"Its unbroken circle glows faintly, remembering a vow that time itself could not erase.",
+				"When you heal a creature, that creature gains Temporary Hit Points equal to your caster level."
+			]
+		},
+		{
+			"name": "Ember Light Band",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "RG|DMG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"entries": [
+				"Hairline cracks across the Ember Light Band glow faintly like coals when battle begins.",
+				"Your weapon attacks also deal{@damage  + 1d4} Fire damage. You can cast the {@spell Light} cantrip at will."
+			],
+			"attachedSpells": [
+				"light"
+			]
+		},
+		{
+			"name": "Draconite Daggers",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"Made from crystal beaten into a razor's edge, each {@item dagger|PHB} glitters with primeval energies.",
+				"This full set of +1 Daggers is sold separately. When you purchase a {@item dagger|PHB}, choose Necrotic, Lightning, Poison, Acid, Fire, or Cold damage. When you attack with this {@item dagger|PHB}, any weapon damage it deals can be replaced with that damage type and you gain Resistance to that damage type until the start of your next turn."
+			]
+		},
+		{
+			"name": "Curative Periapt",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This charm is warm and comforting to the touch to allow its wearer to rest and recover.",
+				"Whenever you are healed, you restore the maximum possible number of Hit Points."
+			]
+		},
+		{
+			"name": "Glaive of the Four Winds",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "glaive|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"entries": [
+				"When it moves, the air stirs around the blade as if eager to take part in the battle.",
+				"This weapon acts as a {@item +1 Glaive}. Once per day, you can use an action to make an attack against any number of targets within a 10 foot radius of you."
+			]
+		},
+		{
+			"name": "Gloves of the Late Abbot",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"The worn leather still carries the calm discipline of hands that once guided both prayer and punishment.",
+				"Your Unarmed Strikes do{@damage  + 1d4} Radiant damage. On a hit, recover 2 Hit Points."
+			]
+		},
+		{
+			"name": "Gorefiend Blade",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "greatsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"entries": [
+				"This jagged-edged weapon remembers every drop of blood it has ever claimed.",
+				"This {@item +1 Greatsword} does an additional {@damage 2d6} Slashing damage against targets with full HP. You gain Temporary Hit Points equal to the additional damage dealt in this way."
+			]
+		},
+		{
+			"name": "Glorious Light Shield",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"Polished to a radiant sheen, it turns every defense into a moment of triumph.",
+				"Whenever an opponent makes a ranged or melee attack against you, they take Radiant damage equal to your",
+				{
+					"type": "entries",
+					"name": "Proficiency Bonus.",
+					"entries": []
+				}
+			]
+		},
+		{
+			"name": "Gloves of the Undercity Brawler",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"The cracked knuckles of these gloves have settled more arguments than words ever could.",
+				"When you make an Unarmed Strike or an attack while in a Wild Shape form, add your Proficiency Bonus to the attack and damage rolls of your first attack each turn. The gloves are considered a Simple Melee weapon with the Finesse and Light properties and deal {@damage 1d6} Bludgeoning damage."
+			]
+		},
+		{
+			"name": "Grakka's Warbow",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "longbow|PHB",
+			"type": "R",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"entries": [
+				"Modeled on the mythical bow wielded by the folk hero, Grakka, this massive bow is a sign of strength among nomadic peoples of the plains and steppes.",
+				"This {@item +1 Longbow} uses Strength instead of Dexterity for attack and damage rolls. If its user has 15 or more Strength, this bow suffers no penalties at long range."
+			],
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Gnomish Grapplewhip",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "whip|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"entries": [
+				"A clever tangle of cord and clockwork that pulls you into the fray.",
+				"When this {@item whip|PHB} hits a target, you can attempt to Grapple it. The save DC for the grapple is 8 plus your Dexterity modifier plus your Proficiency Bonus. Inanimate objects automatically fail their saving throw. As long as a target is Grappled this way, you cannot use the Gnomish Grapplewhip for attacks but you can move to an unoccupied space within 5 feet of the target without consuming an action."
+			]
+		},
+		{
+			"name": "Gloves of the Twin Flame",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"When worn together, faint warmth blooms in each palm, like two fires that refuse to burn alone.",
+				"Cantrips targeting foes or allies can target an additional creature. The same target cannot be chosen twice. Usable once per Short Rest."
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Bogle",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"size": [
+				"T"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d4 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 5,
+			"dex": 15,
+			"con": 12,
+			"int": 6,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"stealth": "+4",
+				"sleight of hand": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"understands Common but can't speak"
+			],
+			"trait": [
+				{
+					"name": "Slippery Little Thing",
+					"entries": [
+						"The bogle can move through or occupy the space of any creature that is Medium or larger."
+					]
+				},
+				{
+					"name": "Escape Artist",
+					"entries": [
+						"When making a Strength check for an action to break itself (or another creature) free from being {@condition restrained}, it always succeeds."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slippery Slap",
+					"entries": [
+						"{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) Bludgeoning damage. If the bogle hits a creature with this attack, it becomes slick with grime until the start of the bogle's next turn. During that time, the bogle gains a +2 bonus to AC and saving throws from that creature."
+					]
+				},
+				{
+					"name": "Hop",
+					"entries": [
+						"The bogle jumps up to 5 feet. This movement does not provoke Opportunity Attacks. The hop can be used as part of its action."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MA"
+			]
+		}
+	]
+}
