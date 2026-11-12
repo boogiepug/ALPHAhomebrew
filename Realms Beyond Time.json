@@ -1042,6 +1042,162 @@
 				"Its bone point has stood vigilant longer than the Z'lethan kingdoms who made it.",
 				"This {@item +1 Spear} makes its wielder Immune to the Poisoned condition and Resistant to Poison damage. Once per day, if you fail a saving throw you can retry it once."
 			]
+		},
+		{
+			"name": "Gloves of the Brute Mage",
+			"source": "RealmsBeyondTime",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Heavy and scarred, they prove that even the crudest fists can carry a spark of arcane force.",
+				"Your ranged spell attacks can be made as melee spell attacks when you are adjacent to a hostile creature. Your melee spell attacks gain +2 damage."
+			]
+		},
+		{
+			"name": "Hedge Mage's Stick",
+			"source": "RealmsBeyondTime",
+			"type": "WD|DMG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"Crooked and humble, yet stubbornly effective in practiced hands.",
+				"When you are wielding this Wand, you gain Advantage on Initiative checks and your Spell Save DC and Spell Attack Bonus is +2 against {@status surprised} opponents. This item can act as a Spellcasting Focus."
+			]
+		},
+		{
+			"name": "Inertial Band",
+			"source": "RealmsBeyondTime",
+			"type": "RG|DMG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"entries": [
+				"The ring grows strangely heavy in motion, as though it resists the very idea of stopping.",
+				"When you cast a cantrip, the ring activates until the end of your next turn. While the ring is active, the next time you roll damage for a spell requiring a spell slot, you roll an additional die of damage and the ring deactivates."
+			]
+		},
+		{
+			"name": "Headband of Quick Wit",
+			"source": "RealmsBeyondTime",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"A thin band that tightens with every clever thought, urging the mind ever faster.",
+				"Your Wisdom is 17 while you wear this headband. It has no effect on you if your Wisdom is already 17 or higher without it. You can also add your Wisdom bonus to Charisma-based skill checks."
+			]
+		},
+		{
+			"name": "Hunter's Sight",
+			"source": "RealmsBeyondTime",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While wearing this helm, you gain the ability to cast {@spell Hunter's Mark} at its lowest level once per day without expending a spell slot. While cast this way, Hunter's Mark doesn't require {@status concentration}. You can dismiss this spell by using a bonus action."
+			],
+			"attachedSpells": [
+				"hunter's mark"
+			]
+		},
+		{
+			"name": "Palm Blade",
+			"source": "RealmsBeyondTime",
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"Hidden along the hand, its slim edge waits for the moment a handshake becomes something else.",
+				"This specialized weapon has the Light and Finesse properties and deals {@damage 1d4} Slashing damage. As a bonus action, you can roll a {@skill Sleight of Hand} check (DC 15) to hide the weapon and gain Advantage on your next attack roll with this weapon."
+			]
+		},
+		{
+			"name": "Ring of the Divine Battery",
+			"source": "RealmsBeyondTime",
+			"type": "RG|DMG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"Faint sparks ripple across its surface, storing power like a chant waiting to be spoken.",
+				"Whenever you make a successful melee weapon attack that deals damage, you may cast one of your level 1 spells this turn as a free acton. That spell must have a healing effect and a casting time of 1 Action."
+			]
+		},
+		{
+			"name": "Siegebreaker Crossbow",
+			"source": "RealmsBeyondTime",
+			"baseItem": "hand crossbow|PHB",
+			"type": "R",
+			"rarity": "uncommon",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"L",
+				"LD"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"entries": [
+				"A favorite weapon on the ramparts of besieged fortresses, a never-ending stream of bolts flies forth from this ingenious weapon.",
+				"After firing, this {@item Hand Crossbow|PHB} will magically reload itself without consuming an action. Ignore the {@itemProperty LD||Loading} property of this weapon."
+			],
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Ring of Aerial Ambush",
+			"source": "RealmsBeyondTime",
+			"type": "RG|DMG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"Light as a falling feather, this ring seems to wait patiently for the moment gravity becomes a weapon.",
+				"While wearing this ring, you can cast {@spell Jump} as a Bonus Action once per Long Rest without expending a spell slot, but can target only yourself when you do so.",
+				"Until the end of your next round, you ignore fall damage and your next attack has advantage and if it hits, it is a critical hit."
+			],
+			"attachedSpells": [
+				"jump"
+			]
+		},
+		{
+			"name": "Sanguine Lens",
+			"source": "RealmsBeyondTime",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"When you wear this lens, creatures not at full Hit Points do not gain the benefits of Invisibility or obscurement against you."
+			]
+		},
+		{
+			"name": "Rolling Boulder Band",
+			"source": "RealmsBeyondTime",
+			"type": "RG|DMG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"Once it starts, the power in this ring seems reluctant to stop.",
+				"Whenever you successfully hit with a melee attack, your next melee attacks this turn gain +1 to attack and damage."
+			]
+		},
+		{
+			"name": "Pipe of Knowledge",
+			"source": "RealmsBeyondTime",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Its smoke curls into thoughtful spirals, pondering answers just beyond reach.",
+				"Add your Proficiency Bonus to all Intelligence-based skill checks when smoking this pipe."
+			]
 		}
 	],
 	"monster": [
@@ -1192,6 +1348,1041 @@
 					"name": "Strixhaven Initiate",
 					"source": "SCC"
 				}
+			]
+		},
+		{
+			"name": "Poisoned Words",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Your words slither into the mind of a creature, planting doubt, confusion, or despair. Choose a creature within range—it must make a Charisma saving throw. On a failure,  the target suffers disadvantage on Charisma checks and saving throws for the duration. Immunity to charm negates this effect."
+			],
+			"entriesHigherLevel": [
+				"At higher levels.",
+				{
+					"type": "list",
+					"items": [
+						"At 5th level, the target also suffers disadvantage on attack rolls against you.",
+						"At 11th level, the spell's duration extends to 10 minutes.",
+						"At 17th level, you can target two creatures at once."
+					]
+				}
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Seductive Longing",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You plant a fleeting sense of curiosity, infatuation, or trust in the mind of a creature within range. The target must succeed on a Wisdom saving throw or feel an inexplicable urge to approach you. On a failed save, the target must use its next movement to step at least 10 feet closer to you if possible. This spell does not provoke hostility unless the creature was already hostile to you. Charm immunity negates the effect of this spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"At 5th level, the target also gains disadvantage on its next Insight check against you.",
+						"At 11th level, the target is Charmed until the start of your next turn if it fails its save. ",
+						"At 17th level, this spell affects all creatures of your choice within 30 feet."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Peace",
+							"shortName": "Peace",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Aberrant Mind",
+							"shortName": "Aberrant Mind",
+							"source": "TCE"
+						}
+					}
+				]
+			},
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Cordon Bleu of Arrows",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "six small food items such as bones, carrots, drumsticks, or sausages"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You enchant a small feast of improvised \"ammunition\" to defend a space. You place the food items on the ground within your reach. Until the spell ends, whenever a creature other than you first enters a 30-foot radius centered on the food or ends its turn there, one enchanted piece launches itself at that creature.",
+				"The target must succeed on a Dexterity saving throw or take {@damage 1d6} piercing damage and {@damage 1d4} poison damage.",
+				"The food is then destroyed. The spell ends early when no enchanted food remains.",
+				"When you cast the spell, you may designate any number of creatures you choose. Those creatures do not trigger the effect."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you may enchant two additional food items for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing",
+				"poison"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Crown of the Bog Lord",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 5,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a lotus or frog idol"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A crown of pale ephemeral lilies forms above a willing creature's head. For the Duration:",
+				{
+					"type": "list",
+					"items": [
+						"Allies within 10 feet of the crowned creature gain +1 bonus to AC",
+						"Enemy creatures start their turn within the aura take {@damage 2d6} psychic damage",
+						"The crowned creature can cast {@spell Command} once (no slot or components)"
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a slot above 5th, increase the aura's radius by 5 feet and the psychic damage by {@dice 1d6} for each slot above 5th. At 7th level or higher, the crowned creature can cast {@spell Command} twice during the spell's duration."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"miscTags": [
+				"MAC",
+				"WLT"
+			]
+		},
+		{
+			"name": "Deezy's Surprise Bolt",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You conjure an undulating, cackling mass of goblin energy and hurl it toward one creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 3d8} damage. Choose one of the d8s. The number it rolled determines the type of damage, as shown below.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Acid"
+						],
+						[
+							"2",
+							"Cold"
+						],
+						[
+							"3",
+							"Fire"
+						],
+						[
+							"4",
+							"Force"
+						],
+						[
+							"5",
+							"Lightning"
+						],
+						[
+							"6",
+							"Poison"
+						],
+						[
+							"7",
+							"Psychic"
+						],
+						[
+							"8",
+							"Thunder"
+						]
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the spell deals an extra {@damage 1d8} damage of the rolled type for each slot level above"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "2nd.",
+					"entries": [
+						"If four or more d8s show the same number, the bolt becomes an unstoppable vessel of pure goblin energy.",
+						"Treat it as if affected by both the Empowered Spell and the Seeking Spell Metamagic feature, even if you don't have it."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"RO"
+			]
+		},
+		{
+			"name": "Dungfire",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a lump of dried dung and a match"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You conjure a burst of foul, green-orange flame that burns with infernal stink. Choose a point you can see within range; the fire erupts in a 10-foot-radius sphere.",
+				"Each creature in that area must make a Dexterity saving throw. A creature takes {@damage 2d6} fire damage and {@damage 2d6} necrotic damage on a failed save, or half as much damage on a successful one.",
+				"Flammable objects ignite, and the area reeks for 1 minute, imposing disadvantage on {@skill Stealth} checks made to hide there."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the fire or necrotic damage (your choice) increases by {@dice 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"fire",
+				"necrotic"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"BO",
+				"SGT"
+			]
+		},
+		{
+			"name": "Fiendish Gobblade",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of your own blood and a goblin's tooth"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon a massive sword forged from writhing, screaming goblinoid fiends bound together by molten boggart ichor. It hums, swears, and occasionally bites itself.",
+				"When you cast this spell, the blade erupts in your grasp (or hovers beside you if you have no hand free). The sword counts as a magic {@item greatsword|PHB} that you are proficient with and that uses your Charisma for attack and damage rolls.",
+				"While the spell lasts, you gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Writhing Reach",
+							"entry": "The sword has a 5-foot reach as the bound gobbos stretch and claw to hit your foes."
+						},
+						{
+							"type": "item",
+							"name": "Gobbo Chorus",
+							"entry": "When you hit a creature with the sword, it takes an additional {@damage 1d8} psychic damage from the gobbos' shrieking. You can add your Charisma modifier to that extra damage once per turn."
+						},
+						{
+							"type": "item",
+							"name": "Rebuke of the Brood (1/Turn)",
+							"entry": "When you kill a creature with the sword, as a reaction the gobbos can cheer and bite the nearest enemy within 10 feet of the slain creature. That enemy takes {@damage 1d8} necrotic damage (no action required)."
+						}
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a slot of 4th level or higher, the psychic and necrotic damage each increase by {@dice 1d8} for every slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"necrotic",
+				"psychic"
+			],
+			"miscTags": [
+				"SMN"
+			]
+		},
+		{
+			"name": "Granny's Planar Oven",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a baking stone and ashes from a campfire"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You open a portal to an {@condition invisible} oven that radiates unbearable heat.",
+				{
+					"type": "list",
+					"items": [
+						"Choose a point within range; a 10-foot cube of air turns into shimmering heat.",
+						"Creatures entering or starting their turn there take {@damage 4d8} fire damage.",
+						"The area counts as {@quickref Vision and Light||2||lightly obscured} by mirage.",
+						"You can move the oven up to 20 ft. as a bonus action each turn."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"miscTags": [
+				"OBS",
+				"UBA"
+			]
+		},
+		{
+			"name": "Inner Brood",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a spoon licked clean by a goblinoid creature"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Your body sprouts fiendish and goblinoid faces that argue, sing, belch, and sometimes help.",
+				"You gain advantage on {@status Concentration} checks, as the faces help you remember and chant your spells. Creatures of your choice within 30ft are heckled by the faces,  and have disadvantage on {@status Concentration} checks.",
+				"Once per turn, when you cast a spell that deals damage, you can have the faces echo it, dealing extra damage equal to your Charisma modifier to one target of the spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"ADV"
+			]
+		},
+		{
+			"name": "Kela's Gobsmack",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You deliver a backhanded burst of goblin bravado. Make a melee spell attack; on a hit, the target takes {@damage 1d8} force damage and must succeed on a Strength saving throw or be pushed 5 feet away."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Damage increases by {@dice 1d8} at 5th ({@dice 2d8}), 11th ({@dice 3d8}), and 17th ({@dice 4d8}) levels."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "force damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"name": "Nikte's Detrimental Snotsphere",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a cracked bead or a goblin tooth"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure a wobbling, semi-transparent sphere of spiteful magic snot centered on a point you can see within range. The sphere has a 10-foot radius and radiates an aura of bad luck, resistance, and goblin resentment.",
+				"While the sphere persists, the following effects apply:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Protective Malice",
+							"entry": "Creatures of your choice inside the sphere gain a +2 bonus to AC and Dexterity saving throws against attacks (including ranged attacks) originating from outside the sphere."
+						},
+						{
+							"type": "item",
+							"name": "Punitive Rebound",
+							"entry": "When a hostile creature outside the sphere hits a creature inside it with an attack or forces it to fail a saving throw, the attacker takes {@damage 2d6} force damage as the magic snaps back at them. A creature can take this damage only once per round."
+						}
+					]
+				},
+				"As a Bonus Action on your turn, you can move the sphere up to 20 feet to a point you can see within range."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the force damage from Punitive Rebound increases by {@dice 1d6} for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"MAC",
+				"SGT",
+				"UBA"
+			]
+		},
+		{
+			"name": "Johnathan Inke's Font of Vigor",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "enchanted ink used to draw a panther sigil on your skin"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You carve Johnathan Inke's Panther Sigil into your flesh using enchanted ink, then brand a creature you can see within range with a flickering necromantic mark. The sigils pulse in tandem, binding your vitality to the creature's suffering. Until the spell ends, the following effects apply:",
+				{
+					"type": "entries",
+					"name": "Shared Font",
+					"entries": [
+						"Once per turn, when a creature of your choice hits the marked target with a weapon attack, the attacker regains {@dice 2d4} hit points as necromantic energy siphons vitality from the mark."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Coven's Price",
+					"entries": [
+						"While this spell is active, you have disadvantage on Constitution saving throws, and whenever you take damage, you take extra necrotic damage equal to your proficiency bonus as the panther sigil feeds."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Witch-Bound Focus",
+					"entries": [
+						"If the marked creature drops to 0 hit points while the spell is active, the sigil flares violently. Until the end of your next turn, you may cast one 1st-level spell you know without expending a spell slot. That spell must have a casting time of 1 action. Once this free spell is cast, Johnathan Inke's Font of Vigor immediately ends."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the healing from Shared Font increases by {@dice 1d4} for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			]
+		},
+		{
+			"name": "Adhesive Globule",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of honey"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You summon a small glob of a sticky substance and hurl it at a creature within range. Choose one of the following body parts to aim for and make a ranged spell attack roll. On a hit, the target suffers the effects listed for that body part.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Eyes",
+							"entry": "The target is {@condition blinded}. The attack roll for this effect has a -3 penalty."
+						},
+						{
+							"type": "item",
+							"name": "Feet",
+							"entry": "The target's speed is reduced to 0."
+						},
+						{
+							"type": "item",
+							"name": "Hands",
+							"entry": "The target may only make a maximum one attack on their turn. This cannot not effect creatures that are Huge or larger."
+						},
+						{
+							"type": "item",
+							"name": "Mouth",
+							"entry": "They can neither speak nor satisfy the verbal component for spells. The attack roll for this effect has a -3 penalty."
+						}
+					]
+				},
+				"A creature under one of these effects can use its action to make a Strength check against your spell save DC. If it succeeds, the effect ends as it frees itself."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"conditionInflict": [
+				"blinded"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"abilityCheck": [
+				"strength"
+			],
+			"miscTags": [
+				"SMN"
 			]
 		}
 	]
