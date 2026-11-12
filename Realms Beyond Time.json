@@ -17,7 +17,8 @@
 					"Szymon"
 				],
 				"color": "836b63",
-				"colorNight": "9f9e80"
+				"colorNight": "9f9e80",
+				"url": "https://www.legendkeeper.com/p/cm79cab0j0iya0jsecl0v2wpl/qf18tv9p"
 			}
 		]
 	},
@@ -496,6 +497,550 @@
 			"entries": [
 				"When worn together, faint warmth blooms in each palm, like two fires that refuse to burn alone.",
 				"Cantrips targeting foes or allies can target an additional creature. The same target cannot be chosen twice. Usable once per Short Rest."
+			]
+		},
+		{
+			"name": "Grim Breastplate",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "breastplate|PHB",
+			"type": "MA",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 20,
+			"ac": 14,
+			"entries": [
+				"Embossed with images of death, the dull steel saps your opponents' vitality to make it your own.",
+				"This {@item +1 Breastplate} allows you to smite your enemies with fell power. When you successfully hit a target with a melee attack, you can expend a spell slot to deal {@dice 2d4} additional",
+				"Necrotic damage. Using a spell slot higher than level 1 deals an additional {@damage 1d4} damage for each additional level.",
+				"You gain Temporary Hit Points equal to the additional damage dealt in this way."
+			]
+		},
+		{
+			"name": "Guile Stick",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "club|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"entries": [
+				"A simple rod that somehow commands respect.",
+				"This weapon is treated as a {@item +2 Club} for weapon proficiency and masteries. Wielding this weapon grants +2 to {@skill Intimidation} checks. As a Bonus Action, you can attempt to frighten a creature within 30 feet. Roll an Intimidation check DC 20. If you succeed, that creature is Frightened until your next turn and you cannot use this ability again until after a Long Rest."
+			]
+		},
+		{
+			"name": "Hammer of Fissures",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "warhammer|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"entries": [
+				"Each swing promises to remind the earth how easily it can be broken.",
+				"This weapon is a {@item +1 Warhammer}. As an action, you can strike the ground at your feet and roll an attack roll against all targets within a 5 foot radius of you in contact with the ground. On a hit, deal {@dice 1d6} plus your Strength modifier Force damage."
+			]
+		},
+		{
+			"name": "Harbor Guard's Iron",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "half plate armor|PHB",
+			"type": "MA",
+			"rarity": "rare",
+			"reqAttune": "by Lawful character",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"L"
+					]
+				}
+			],
+			"weight": 40,
+			"ac": 15,
+			"stealth": true,
+			"entries": [
+				"Salt-worn metal carries the steadfast patience of those who watch the tides.",
+				"This {@item +1 Half Plate Armor} lets you halt lawbreakers in their tracks. You can use an action to cast the {@spell Web} spell (save DC 13) once per day."
+			],
+			"attachedSpells": [
+				"web"
+			]
+		},
+		{
+			"name": "Hood of Soothing Shadows",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"The soft darkness beneath its cowl rejuvenates both mind and body.",
+				"When you successfully use the {@action Hide} action, you can either restore {@dice 2d8} Hit Points or a level 1 spell slot. You can use this ability once per Short Rest."
+			]
+		},
+		{
+			"name": "Hushed Magebane",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "hand crossbow|PHB",
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"L",
+				"LD"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"entries": [
+				"The matte dark wood of this weapon muffles any sound, even when it is loaded and fired.",
+				"This {@item +1 Hand Crossbow} can silence its targets. When you hit a target with a bolt from this weapon, you can immediately use a Bonus action to silence the target, preventing the target from casting spells with verbal components until the end of the target's next turn. You can use this ability once per day."
+			],
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Infiltrator's Sheath",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Made of leather and adorned with a turquoise eye, the edges of this sheath shimmer when seen out of the corner of your eye.",
+				"When a one-handed bladed weapon is placed in this sheath, both the sheath and the weapon become {@condition invisible}, as per the spell {@spell Invisibility}. This effect ends once the weapon is drawn. The sheath resizes to the weapon placed in it.",
+				"If a creature searching for weapons succeeds at a DC 20 {@skill Perception} or {@skill Investigation} check, they find the {@condition invisible} sheath based on other cues like feeling it or seeing how it affects the wearer's clothing."
+			]
+		},
+		{
+			"name": "Ironfang",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"entries": [
+				"Heavy and unforgiving, it bites through armor, trying to reach that succulent flesh.",
+				"This {@item +1 Longsword} can drain the life from your target.",
+				"When you successfully hit a target with it, you can use a Bonus action immediately afterward to deal additional Necrotic damage equal to your Proficiency Bonus. You gain Hit Points equal to the additional damage dealt this way. Undead and constructs are immune to this effect."
+			]
+		},
+		{
+			"name": "Occulted Link",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "RG|DMG",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Bound by dark magic, this ring turns your veins into a conduit.",
+				"Whenever you take damage, you can have your summon, beast companion, or familiar take {@dice 1d8} of that damage instead."
+			]
+		},
+		{
+			"name": "Motley Coat",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "padded armor|PHB",
+			"type": "LA",
+			"rarity": "uncommon",
+			"weight": 8,
+			"ac": 11,
+			"stealth": true,
+			"entries": [
+				"A riot of colors and patches hides far more tricks than it reveals.",
+				"When an attack roll misses you, deal Psychic damage equal to your Charisma modifier to the attacker."
+			]
+		},
+		{
+			"name": "Necromancer's Rod",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "club|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"entries": [
+				"The dark wood is warm with the memory of hands that will no longer feel anything but cold.",
+				"This weapon acts as a {@item +1 Club}. When you create or take control of undead, that creature gains Temporary Hit Points equal to your character level. As an action, sacrifice a nearby corpse to give all undead under your control bonuses to attack rolls, damage rolls, and AC equal to your",
+				"Proficiency Bonus until the end of your next turn."
+			]
+		},
+		{
+			"name": "One Stone Bow",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "shortbow|PHB",
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"entries": [
+				"This weathered bow remembers the patience of hunters who carried only a single shot worth taking.",
+				"When you make a ranged attack with this weapon and hit a target, you can cause the ammunition to ricochet toward a second target within 10 feet of the first. Make a free ranged attack against the second target without expending further ammunition. Each arrow can only ricochet once."
+			],
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Oozewarden's Boon",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"entries": [
+				"The twisted bogwood is slick with unwholesome moisture, but your grip is adhered to its surface.",
+				"This {@item +1 Quarterstaff} makes your acid attacks viscous and sticky. Whenever a target fails a saving throw against a spell dealing Acid damage, the target also suffers -10 Speed until the end of its next turn and takes an additional {@damage 1d4} Acid damage at the start of each of its turns until it leaves its spot."
+			]
+		},
+		{
+			"name": "Pouch of Smoke Bombs",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"The faint smell of acrid powder promises a swift and dramatic exit.",
+				"This belt pouch contains two smoke bombs. As an action, retrieve a smoke bomb and throw it anywhere you can see within 60 feet. Anything within a 10-foot radius of impact is {@quickref Vision and Light||2||Heavily Obscured} for 1 round and {@quickref Vision and Light||2||Lightly Obscured} for the following round. All creatures caught in the radius must re-roll their Initiative. The pouch replenishes the smoke bombs at dawn."
+			]
+		},
+		{
+			"name": "Prehensile Whip",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "whip|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"entries": [
+				"Never quite still, the lash coils and twists as it waits for something to occupy it.",
+				"This {@item +1 Whip} can be used to perform {@skill Sleight of Hand} checks from 10 feet away. You also gain +2 to Climb checks."
+			]
+		},
+		{
+			"name": "Primordial Savant Staff",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"entries": [
+				"The ancient wood thrums with knowledge older than any spellbook.",
+				"This {@item +1 Quarterstaff} grants you the power of elemental forces. Any level 1 or higher spell you cast that does Fire, Poison, Cold, Lightning, or Acid damage can be changed to any of the other three damage types. As long as the last spell damage the target took was of a different type from the type you just chose, roll an additional damage die for your spell."
+			]
+		},
+		{
+			"name": "Quicksilver Lance",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "lance|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"R",
+				"S"
+			],
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"entries": [
+				"Its shining shaft seems to shift like liquid metal just before the strike.",
+				"This weapon acts as a {@item +1 Lance}. If you hit a creature with a melee attack roll using this weapon, you can make a free melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. You can make this extra attack only once per turn."
+			]
+		},
+		{
+			"name": "Reflex Shield",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+2",
+			"entries": [
+				"The moment danger strikes, this shield moves faster than thought, interposing itself with uncanny precision.",
+				"This Shield grants you a +2 bonus to your AC. You can also cast {@spell Shield} as a Reaction without expending a spell slot once per day."
+			],
+			"attachedSpells": [
+				"shield"
+			]
+		},
+		{
+			"name": "Resonant Maul",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "maul|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 10,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"entries": [
+				"Each strike hums through stone and bone alike, echoing long after the blow has fallen.",
+				"On a hit, this {@item +1 Maul} imposes Disadvantage on the target's checks to maintain {@status Concentration}. Once per day, it can cast {@spell Silence} at its lowest level without expending a spell slot centered on itself."
+			],
+			"attachedSpells": [
+				"silence"
+			]
+		},
+		{
+			"name": "Ring of the Deep Shadows",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "RG|DMG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"entries": [
+				"The metal drinks the light around it, as though it remembers darker places than this.",
+				"The wearer's weapons and Unarmed Strikes deal an additional {@damage 1d4} damage against targets when attacking from stealth. Gain +2 to {@skill Stealth}."
+			]
+		},
+		{
+			"name": "Ring of the Shifter",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "RG|DMG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusAc": "+2",
+			"entries": [
+				"Slender and unassuming, Ring of the Shifter carries magic that reveals itself only when truly needed.",
+				"Whenever you are in a form that consumed a Wild Shape charge, gain +2 to AC and +2 to attacks until the form ends."
+			]
+		},
+		{
+			"name": "Spellweaver's Signet",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "RG|DMG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"The ring glows faintly when magic gathers, eager to join the pattern.",
+				"This ring allows the wearer to redirect magical energies. When an opponent casts a spell, as a Reaction you can expend a spell slot of the same level to gain Advantage on saving throws to that spell. This item can act as a Spellcasting Focus."
+			]
+		},
+		{
+			"name": "Smuggler's Duster",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Its many hidden seams whisper of secrets that passed quietly through guarded doors.",
+				"On command, an interdimensional pocket appears in the lining of this coat that can contain up to 15 lbs of inanimate matter. There is no air inside, so any living being placed inside will die of suffocation if left inside for too long. You can retrieve an item by thinking about which object you want to retrieve. Another command seals the pocket. This item does not appear magical under {@spell Detect Magic}."
+			]
+		},
+		{
+			"name": "Stormkin Axe",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "battleaxe|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"entries": [
+				"Static prickles along its haft, eager for the swing that will set it loose upon your enemies.",
+				"This {@item +1 Battleaxe} also has the {@itemProperty T||Thrown} property (Range 20/60). When thrown, it deals {@dice 1d4} additional Lightning damage to its target and any creature within 5 feet of the thrown axe's direct path. You can command the axe to return to you as a Bonus Action, dealing {@damage 1d4} Lightning damage to any creature within 5 feet of its direct return path to you."
+			]
+		},
+		{
+			"name": "Suction Pouch",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Once something drops inside, the pouch clings to it with a stubbornness bordering on spite.",
+				"As an action, you can pick up all Tiny or smaller inanimate objects (coins, ammunition, caltrops, etc.) within 5 feet of you if the Suction Pouch is empty. When used as part of a {@skill Sleight of Hand} check to steal or hide such objects, gain Advantage on that check. You can retrieve one or more items from the Suction Pouch as an action."
+			]
+		},
+		{
+			"name": "Summoner's Cane",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusWeaponAttack": "+1",
+			"staff": true,
+			"entries": [
+				"The polished tip taps impatiently, waiting for something from elsewhere to answer.",
+				"This weapon acts as a {@item +1 Quarterstaff}. When you are {@status concentration||Concentrating} on a spell, all your summoned creatures gain{@dice  + 1d4} to attack rolls and saving throws as long as you maintain {@status Concentration}."
+			]
+		},
+		{
+			"name": "Switch Knuckles",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"A flick of the wrist sends hidden steel snapping into place with a sound that ends conversations.",
+				"Gain +1 to attack and damage on your Unarmed Strikes. Your Unarmed Strikes now do your choice of Bludgeoning, Piercing, or Slashing damage and count as magical for the purposes of overcoming resistance and immunity."
+			]
+		},
+		{
+			"name": "Sword of Spectacle",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "rapier|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeaponAttack": "+1",
+			"entries": [
+				"Every thrust and riposte demands an audience, and the blade never disappoints.",
+				"This {@item +1 Rapier} allows you to roll a {@skill Performance} check when you are hit by an attack. Until the end of your next turn, your AC is equal to the result of that check. You can use this once per day for free or expend a use of Bardic Inspiration to use it an additional time."
+			]
+		},
+		{
+			"name": "The Rewoven Loop",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "RG|DMG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"entries": [
+				"This endless ring bears the careful stitches of something once broken and mended.",
+				"After you have moved on your turn, you can activate the ring as a Bonus Action to teleport back to the location where you started your turn. Your next {@skill Stealth} or {@skill Athletics} check is made with Advantage. Use once per Short Rest."
+			]
+		},
+		{
+			"name": "The Hidden Hermit's Pocket Closet",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"type": "RG|DMG",
+			"rarity": "uncommon",
+			"entries": [
+				"A humble ring with a pocket that unfolds into a space far larger than any hermit should reasonably need.",
+				"Your Speed increases by 10 feet while Invisible, transformed, or Wild Shaped. Whenever you cast a Transmutation or Illusion spell on yourself, and whenever you Wild Shape into a different form, you can change your items, weapons, and outfit as a free action."
+			]
+		},
+		{
+			"name": "Z'lethan Guardian Spear",
+			"source": "RealmsBeyondTime",
+			"page": 0,
+			"baseItem": "spear|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"entries": [
+				"Its bone point has stood vigilant longer than the Z'lethan kingdoms who made it.",
+				"This {@item +1 Spear} makes its wielder Immune to the Poisoned condition and Resistant to Poison damage. Once per day, if you fail a saving throw you can retry it once."
 			]
 		}
 	],
