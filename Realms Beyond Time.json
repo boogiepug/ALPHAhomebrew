@@ -2517,7 +2517,37 @@
                 "Smoke And Mirrors|Escapologist|RealmsBeyondTime|Virtuoso|RealmsBeyondTime|15",
                 "Infallible Skill|Escapologist|RealmsBeyondTime|Virtuoso|RealmsBeyondTime|20"
             ]
+        },
+        {
+            "name": "Path of Terror Barbarian",
+            "shortName": "Terror",
+            "source": "RealmsBeyondTime",
+            "className": "Barbarian",
+            "classSource": "PHB", 
+            "subclassFeatures": [
+                "Path of Terror Barbarian|Barbarian|PHB|Terror|RealmsBeyondTime|3",
+                "Fight or Flight|Barbarian|PHB|Terror|RealmsBeyondTime|6",
+                "Bravely Run Away|Barbarian|PHB|Terror|RealmsBeyondTime|10",
+                "Existential Dread|Barbarian|PHB|Terror|RealmsBeyondTime|14"
+            ]
+        },
+        {
+            "name": "College of Warmth Bard",
+            "shortName": "Warmth",
+            "source": "RealmsBeyondTime",
+            "className": "Bard",
+            "classSource": "PHB", 
+            "subclassFeatures": [
+                "College of Warmth Bard|Bard|PHB|Warmth|RealmsBeyondTime|3",
+                "Reassuring Touch|Bard|PHB|Warmth|RealmsBeyondTime|6",
+                "Intriguing Stranger|Bard|PHB|Warmth|RealmsBeyondTime|6",
+                "Inspiring Devotions (3)|Bard|PHB|Warmth|RealmsBeyondTime|9",
+                "Inspiring Devotions (4)|Bard|PHB|Warmth|RealmsBeyondTime|13",
+                "Obsession’s Void|Bard|PHB|Warmth|RealmsBeyondTime|14",
+                "Inspiring Devotions (5)|Bard|PHB|Warmth|RealmsBeyondTime|17"
+            ]
         }
+
     ],
     "classFeature": [
         {
@@ -3037,6 +3067,292 @@
             "level": 20,
             "entries": [
                 "Long practiced, and much survived, your skills have grown to the point that failure by your own hand is no longer a possibility. You may choose to automatically succeed on Strength, Dexterity, or Constitution saving throws. If an effect that requires a Strength, Dexterity, or Constitution saving throw would deal half damage on a success, you instead take no damage from that effect. You may use this ability a number of times equal to your Charisma modifier, to a minimum of 1. You regain all spent uses when you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Path of Terror Barbarian",
+            "source": "RealmsBeyondTime",
+            "className":"Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Terror",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 3,
+            "entries": [
+                "Key to the identity of a barbarian is their legendary rage. Many variants of barbarian will utilize their anger in a slew of ways, but unique among barbarians are those devoted to the Path of Terror. By tapping into the horror of the world around them (filled with monsters as it inevitably is) and their own fear, they elevate their rage to astounding feats of physical prowess that allow them to escape or survive that which would claim a normal person. As well, many such barbarians have proven proficient in invoking this same fear in their allies such that they too can take flight when the situation calls for it.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Terrified Rage|Barbarian|PHB|Terror|RealmsBeyondTime|3"
+                }
+            ]
+        },
+        {
+            "name": "Terrified Rage",
+            "source": "RealmsBeyondTime",
+            "className":"Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Terror",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 3,
+            "entries": [
+                "You revel in the experience of being afraid, and in turn can utilize the emotional energy it provides you to strengthen your martial prowess. When you rage, you may choose to become frightened as well. When you are frightened you do not suffer the normal penalties to ability checks and attack rolls, nor are you unable to move closer to the source of your fear.",
+                "If you become frightened due to raging, and thus do not have a specific source for your fear, you must choose a hostile creature or trap you can see to be the source of your fear (refer to the {@spell Detect Trap} spell for what is considered a trap). If you cannot select a source for your fear you may not become frightened when you rage and instead follow the normal rules for raging.",
+                "You may double your rage damage bonus for attacks that target the source of your fear.",
+                "In addition, if a creature or effect would have you become frightened, you may begin to rage without expending one of your rages. You may choose to automatically fail any saving throws or ability checks to resist becoming frightened. Your rage is also sustained so long as you are frightened."
+            ]
+        },
+        {
+            "name": "Fight or Flight",
+            "source": "RealmsBeyondTime",
+            "className":"Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Terror",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 6,
+            "entries": [
+                "You have learned to harness the surge of adrenaline that courses through your veins once you become frightened. You have advantage on attack rolls against creatures you are afraid of and you may roll a d4 and add the result to Dexterity checks and saving throws you make as long as you can see the source of your fear."
+            ]
+        },
+        {
+            "name": "Bravely Run Away",
+            "source": "RealmsBeyondTime",
+            "className":"Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Terror",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 10,
+            "entries": [
+                "Seeking to escape that which scares you has fostered in you a nearly supernatural ability to remove yourself and your friends from a situation. While you are frightened, you and any creature that begins its turn within 15 feet of you may use a bonus action to Dash so long as they end that movement further from the source of your fear than they began."
+            ]
+        },
+        {
+            "name": "Existential Dread",
+            "source": "RealmsBeyondTime",
+            "className":"Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Terror",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 14,
+            "entries": [
+                "There is little more terrifying than being in mortal danger. You have learned to harness this fear and turn it into a potent motivating force. While you are frightened, for every 10 hit points you are missing below half of your maximum, you gain a +1 bonus to attack rolls, ability checks, and saving throws. For example if your maximum hit points is 120 and you currently have 40 hit points, the bonus would be a +2 (for being at 20 less than half your maximum hit points). You must be conscious to gain this bonus and the bonus amount may not exceed your proficiency bonus."
+            ]
+        },
+        {
+            "name": "College of Warmth Bard",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 3,
+            "entries": [
+                "Bards who follow the College of Warmth prefer to devote their efforts toward a singular individual. In doing so they find they can more acutely empower them with their encouraging demeanor.",
+                {
+                    "type":"refSubclassFeature",
+                    "subclassFeature": "Singular Attention|Bard|PHB|Warmth|RealmsBeyondTime|3"
+                },
+                {
+                    "type":"refSubclassFeature",
+                    "subclassFeature": "Whispered Adoration|Bard|PHB|Warmth|RealmsBeyondTime|3"
+                },
+                {
+                    "type":"refSubclassFeature",
+                    "subclassFeature": "Inspiring Devotions|Bard|PHB|Warmth|RealmsBeyondTime|3"
+                }
+            ]
+        },
+        {
+            "name": "Singular Attention",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 3,
+            "entries": [
+                "When you take a short rest, you may choose a creature to focus your attention upon. That creature treats all rolls of their hit dice during this rest as their maximum (e.g. a d8 would result in an 8)."
+            ]
+        },
+        {
+            "name": "Whispered Adoration",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 3,
+            "entries": [
+                "When you spend a use of your Bardic Inspiration to inspire a creature, you may choose to whisper your inspiring words into the ear of a creature within 5 feet of you instead. When that creature rolls the Bardic Inspiration dice they gain from this process, they may instead roll two such dice and take the higher result. Bardic Inspiration dice gained by creatures this way only lasts 1 minute instead of the normal 10 minutes."
+            ]
+        },
+        {
+            "name": "Inspiring Devotions",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 3,
+            "entries": [
+                "You may choose two Inspiring Devotions. Devotions may be used as bonus action by expending a Bardic Inspiration. Each Devotion targets one creature within 5 feet of you that can see and that can hear you, other than yourself. You may choose 1 more Devotion at 9th level and again at 13th and 17th level.",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Strike True.",
+                                    "entries": [
+                                        "Target creature receives a bonus to their attack and damage rolls equal to your proficiency bonus until the start of your next turn."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Burn Them All",
+                                    "entries": [
+                                        "Target creature may reroll damage rolls of 1 until the start of your next turn."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Don’t Dally",
+                                    "entries": [
+                                        "Target creature may move through difficult terrain without suffering a speed penalty and may Dash as a bonus action until the start of your next turn."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Read the Body",
+                                    "entries": [
+                                        "Target creature you can see must make a Charisma saving throw vs your spell save DC, if it fails you learn either the damage immunities and resistances, the saving throw statistics, or the condition immunites of that creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Don’t Die, Darling",
+                                    "entries": [
+                                        "Target creature makes death saving throws at advantage while within 30 feet of you. Additionally, you may stabilize that creature as a bonus action if you are within 5 feet of them. This effect lasts for 1 hour or until you choose another creature to receive this Devotion, whichever happens first."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Stay Safe Out There",
+                                    "entries": [
+                                        "When the target rolls a 1 on the d20 for an attack roll, ability check, or saving throw, they can reroll the die and must use the new roll. This effect lasts for 1 hour or until you choose another creature to receive this Devotion, whichever happens first."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Protect Me",
+                                    "prerequisite": "Bard level 13",
+                                    "entries": [
+                                        "(prerequisite: Bard level 13) Target willing creature you can see may spend its reaction when you are targeted by an attack while you are within 5 feet of them to have that attack target them instead. This effect lasts for 1 hour or until you choose another creature to receive this Devotion, whichever happens first."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Distracting Look",
+                                    "prerequisite": "Bard level 13",
+                                    "entries": [
+                                        "(prerequisite: Bard level 13) Target creature that can see you must make a concentration check at disadvantage if they are concentrating on a spel."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "What I Say Is True",
+                                    "prerequisite": "Bard level 17",
+                                    "entries": [
+                                        "(prerequisite: Bard level 17) Target creature that can hear you must make a Charisma saving throw versus your spell save DC, if they fail you may speak a statement of no longer than ten words about you or an object the target can see. The target takes your words as true, and acts accordingly for the next 5 minutes. The creature may repeat the saving throw when they take damage, ending the effect on a success. On a successful save the target is unaffected, and you cannot use this Devotion on them again for the next 24 hours."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Utterly Infatuating",
+                                    "prerequisite": "Bard level 17",
+                                    "entries": [
+                                        "(prerequisite: Bard level 17) Target creature that can see you must make a Charisma saving throw vs your spell save DC, if they fail they subtract your Charisma modifier from all attack rolls they make for the next minute."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reassuring Touch",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 6,
+            "entries": [
+                "Your touch can disrupt mind influencing effects. As a bonus action you may place a hand upon a creature within 5 feet of you. So long as you remain touching that creature with that hand, the creature is immune to being charmed or frightened.",
+                "This effect also ends either condition if that creature is charmed or frightened. You may touch a second creature to also give them this benefit as another bonus action on a subsequent turn, but you will be unable to cast spells that require a somatic component while both hands are occupied."
+            ]
+        },
+        {
+            "name": "Intriguing Stranger",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 6,
+            "entries": [
+                "You gain the ability to study the patterns and nuances of a creature in order to become familiar with them and their social expectations. After 1 minute of speaking with a creature in a language you can both understand, you gain advantage when making Charisma (Persuasion) and Charisma (Deception) checks against that creature."
+            ]
+        },
+        {
+            "name": "Obsession’s Void",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 14,
+            "entries": [
+                "You have learned to utterly infatuate a creature, such that they wish it to never end. When a creature that is charmed by you has the condition end, as a reaction you may choose to spend one Bardic Inspiration and have that creature take 6d6 + your Charisma modifier psychic damage."
+            ]
+        },
+        {
+            "name": "Inspiring Devotions (3)",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 9,
+            "entries": [
+                "You can choose another Inspiring Devotion, for a total of 3"
+            ]
+        },
+        {
+            "name": "Inspiring Devotions (4)",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 13,
+            "entries": [
+                "You can choose another Inspiring Devotion, for a total of 4"
+
+            ]
+        },
+        {
+            "name": "Inspiring Devotions (5)",
+            "source": "RealmsBeyondTime",
+            "className":"Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Warmth",
+            "subclassSource": "RealmsBeyondTime",
+            "level": 17,
+            "entries": [
+                "You can choose another Inspiring Devotion, for a total of 5"
+
             ]
         }
     ]
