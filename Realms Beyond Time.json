@@ -2,10 +2,10 @@
     "_meta": {
         "sources": [
             {
-                "json": "RealmsBeyondTime",
+                "json": "RealmsAcrossTime",
                 "abbreviation": "ALPHA",
-                "full": "Realms Beyond Time",
-                "version": "1.0.0",
+                "full": "Realms Across Time",
+                "version": "1.2.0",
                 "authors": [
                     "Phi",
                     "Szymon",
@@ -25,7 +25,7 @@
     "item": [
         {
             "name": "Anti-impetum Robe",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "rare",
             "reqAttune": true,
@@ -37,7 +37,7 @@
         },
         {
             "name": "Amulet of Cutting Missiles",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "rare",
             "reqAttune": true,
@@ -52,7 +52,7 @@
         },
         {
             "name": "Amulet of Rejuvenation",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "wondrous": true,
@@ -66,7 +66,7 @@
         },
         {
             "name": "Arcane Conduit Staff",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "M",
             "rarity": "rare",
@@ -87,7 +87,7 @@
         },
         {
             "name": "Argaz's Circus Sash",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "reqAttune": true,
@@ -99,7 +99,7 @@
         },
         {
             "name": "Armor of Many Pelts",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "hide armor|PHB",
             "type": "MA",
@@ -115,7 +115,7 @@
         },
         {
             "name": "Barroom Hustler Dart",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "dart|PHB",
             "type": "R",
@@ -137,7 +137,7 @@
         },
         {
             "name": "Blade of the Warden",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "longsword|PHB",
             "type": "M",
@@ -158,7 +158,7 @@
         },
         {
             "name": "Blinding Buckler",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "shield|PHB",
             "type": "S",
@@ -175,18 +175,18 @@
         },
         {
             "name": "Bogle Egg Sac",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "rare",
             "wondrous": true,
             "entries": [
                 "The lumpy sac pulses faintly, as though the mischief inside is already waiting to escape.",
-                "Once per day, as a ritual spell, you can pull one of the slimy eggs from this sac and throw it to the ground. It will immediately hatch into a {@creature bogle|RealmsBeyondTime}, who will follow your spoken commands."
+                "Once per day, as a ritual spell, you can pull one of the slimy eggs from this sac and throw it to the ground. It will immediately hatch into a {@creature bogle|RealmsAcrossTime}, who will follow your spoken commands."
             ]
         },
         {
             "name": "Boots of the Early Mist",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "reqAttune": true,
@@ -201,7 +201,7 @@
         },
         {
             "name": "Bow of Blasting",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "longbow|PHB",
             "type": "R",
@@ -225,7 +225,7 @@
         },
         {
             "name": "Corvid Glove",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "reqAttune": true,
@@ -240,7 +240,7 @@
         },
         {
             "name": "Courier's Cap",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "wondrous": true,
@@ -251,7 +251,7 @@
         },
         {
             "name": "Brutal Sapper",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "mace|PHB",
             "type": "M",
@@ -267,7 +267,7 @@
         },
         {
             "name": "Card Shark's Bracers",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "reqAttune": true,
@@ -279,7 +279,7 @@
         },
         {
             "name": "Chronomancer's Orb",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "reqAttune": true,
@@ -291,7 +291,7 @@
         },
         {
             "name": "Eternal Promise Ring",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "RG|DMG",
             "rarity": "uncommon",
@@ -308,7 +308,7 @@
         },
         {
             "name": "Ember Light Band",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "RG|DMG",
             "rarity": "uncommon",
@@ -323,7 +323,7 @@
         },
         {
             "name": "Draconite Daggers",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "dagger|PHB",
             "type": "M",
@@ -346,7 +346,7 @@
         },
         {
             "name": "Curative Periapt",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "rare",
             "reqAttune": true,
@@ -358,7 +358,7 @@
         },
         {
             "name": "Glaive of the Four Winds",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "glaive|PHB",
             "type": "M",
@@ -380,7 +380,7 @@
         },
         {
             "name": "Gloves of the Late Abbot",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "reqAttune": true,
@@ -392,7 +392,7 @@
         },
         {
             "name": "Gorefiend Blade",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "greatsword|PHB",
             "type": "M",
@@ -413,7 +413,7 @@
         },
         {
             "name": "Glorious Light Shield",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "shield|PHB",
             "type": "S",
@@ -433,7 +433,7 @@
         },
         {
             "name": "Gloves of the Undercity Brawler",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "rare",
             "reqAttune": true,
@@ -445,7 +445,7 @@
         },
         {
             "name": "Grakka's Warbow",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "longbow|PHB",
             "type": "R",
@@ -469,7 +469,7 @@
         },
         {
             "name": "Gnomish Grapplewhip",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "whip|PHB",
             "type": "M",
@@ -489,7 +489,7 @@
         },
         {
             "name": "Gloves of the Twin Flame",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "rare",
             "reqAttune": true,
@@ -501,7 +501,7 @@
         },
         {
             "name": "Grim Breastplate",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "breastplate|PHB",
             "type": "MA",
@@ -518,7 +518,7 @@
         },
         {
             "name": "Guile Stick",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "club|PHB",
             "type": "M",
@@ -538,7 +538,7 @@
         },
         {
             "name": "Hammer of Fissures",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "warhammer|PHB",
             "type": "M",
@@ -559,7 +559,7 @@
         },
         {
             "name": "Harbor Guard's Iron",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "half plate armor|PHB",
             "type": "MA",
@@ -585,7 +585,7 @@
         },
         {
             "name": "Hood of Soothing Shadows",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "rare",
             "reqAttune": true,
@@ -597,7 +597,7 @@
         },
         {
             "name": "Hushed Magebane",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "hand crossbow|PHB",
             "type": "R",
@@ -621,7 +621,7 @@
         },
         {
             "name": "Infiltrator's Sheath",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "wondrous": true,
@@ -633,7 +633,7 @@
         },
         {
             "name": "Ironfang",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "longsword|PHB",
             "type": "M",
@@ -655,7 +655,7 @@
         },
         {
             "name": "Occulted Link",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "RG|DMG",
             "rarity": "uncommon",
@@ -667,7 +667,7 @@
         },
         {
             "name": "Motley Coat",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "padded armor|PHB",
             "type": "LA",
@@ -682,7 +682,7 @@
         },
         {
             "name": "Necromancer's Rod",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "club|PHB",
             "type": "M",
@@ -703,7 +703,7 @@
         },
         {
             "name": "One Stone Bow",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "shortbow|PHB",
             "type": "R",
@@ -726,7 +726,7 @@
         },
         {
             "name": "Oozewarden's Boon",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "M",
             "rarity": "rare",
@@ -747,7 +747,7 @@
         },
         {
             "name": "Pouch of Smoke Bombs",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "wondrous": true,
@@ -758,7 +758,7 @@
         },
         {
             "name": "Prehensile Whip",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "whip|PHB",
             "type": "M",
@@ -778,7 +778,7 @@
         },
         {
             "name": "Primordial Savant Staff",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "M",
             "rarity": "rare",
@@ -799,7 +799,7 @@
         },
         {
             "name": "Quicksilver Lance",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "lance|PHB",
             "type": "M",
@@ -820,7 +820,7 @@
         },
         {
             "name": "Reflex Shield",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "shield|PHB",
             "type": "S",
@@ -839,7 +839,7 @@
         },
         {
             "name": "Resonant Maul",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "maul|PHB",
             "type": "M",
@@ -863,7 +863,7 @@
         },
         {
             "name": "Ring of the Deep Shadows",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "RG|DMG",
             "rarity": "uncommon",
@@ -875,7 +875,7 @@
         },
         {
             "name": "Ring of the Shifter",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "RG|DMG",
             "rarity": "rare",
@@ -889,7 +889,7 @@
         },
         {
             "name": "Spellweaver's Signet",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "RG|DMG",
             "rarity": "uncommon",
@@ -902,7 +902,7 @@
         },
         {
             "name": "Smuggler's Duster",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "wondrous": true,
@@ -913,7 +913,7 @@
         },
         {
             "name": "Stormkin Axe",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "battleaxe|PHB",
             "type": "M",
@@ -934,7 +934,7 @@
         },
         {
             "name": "Suction Pouch",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "wondrous": true,
@@ -945,7 +945,7 @@
         },
         {
             "name": "Summoner's Cane",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "M",
             "rarity": "rare",
@@ -967,7 +967,7 @@
         },
         {
             "name": "Switch Knuckles",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "rarity": "uncommon",
             "wondrous": true,
@@ -978,7 +978,7 @@
         },
         {
             "name": "Sword of Spectacle",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "rapier|PHB",
             "type": "M",
@@ -999,7 +999,7 @@
         },
         {
             "name": "The Rewoven Loop",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "RG|DMG",
             "rarity": "uncommon",
@@ -1011,7 +1011,7 @@
         },
         {
             "name": "The Hidden Hermit's Pocket Closet",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "type": "RG|DMG",
             "rarity": "uncommon",
@@ -1022,7 +1022,7 @@
         },
         {
             "name": "Z'lethan Guardian Spear",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "baseItem": "spear|PHB",
             "type": "M",
@@ -1045,7 +1045,7 @@
         },
         {
             "name": "Gloves of the Brute Mage",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "rarity": "rare",
             "reqAttune": true,
             "wondrous": true,
@@ -1056,7 +1056,7 @@
         },
         {
             "name": "Hedge Mage's Stick",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "type": "WD|DMG",
             "rarity": "rare",
             "reqAttune": true,
@@ -1067,7 +1067,7 @@
         },
         {
             "name": "Inertial Band",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "type": "RG|DMG",
             "rarity": "uncommon",
             "reqAttune": true,
@@ -1078,7 +1078,7 @@
         },
         {
             "name": "Headband of Quick Wit",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "rarity": "rare",
             "reqAttune": true,
             "wondrous": true,
@@ -1089,7 +1089,7 @@
         },
         {
             "name": "Hunter's Sight",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "rarity": "uncommon",
             "reqAttune": true,
             "wondrous": true,
@@ -1102,7 +1102,7 @@
         },
         {
             "name": "Palm Blade",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "baseItem": "dagger|PHB",
             "type": "M",
             "rarity": "rare",
@@ -1123,7 +1123,7 @@
         },
         {
             "name": "Ring of the Divine Battery",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "type": "RG|DMG",
             "rarity": "rare",
             "reqAttune": true,
@@ -1134,7 +1134,7 @@
         },
         {
             "name": "Siegebreaker Crossbow",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "baseItem": "hand crossbow|PHB",
             "type": "R",
             "rarity": "uncommon",
@@ -1156,7 +1156,7 @@
         },
         {
             "name": "Ring of Aerial Ambush",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "type": "RG|DMG",
             "rarity": "rare",
             "reqAttune": true,
@@ -1171,7 +1171,7 @@
         },
         {
             "name": "Sanguine Lens",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "rarity": "uncommon",
             "wondrous": true,
             "entries": [
@@ -1180,7 +1180,7 @@
         },
         {
             "name": "Rolling Boulder Band",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "type": "RG|DMG",
             "rarity": "rare",
             "reqAttune": true,
@@ -1191,7 +1191,7 @@
         },
         {
             "name": "Pipe of Knowledge",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "rarity": "uncommon",
             "wondrous": true,
             "entries": [
@@ -1203,7 +1203,7 @@
     "monster": [
         {
             "name": "Bogle",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "size": [
                 "T"
@@ -1338,7 +1338,7 @@
                 ]
             },
             "entries": [],
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "feats": [
                 {
                     "name": "Magic Initiate",
@@ -1352,7 +1352,7 @@
         },
         {
             "name": "Poisoned Words",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 0,
             "school": "E",
@@ -1402,7 +1402,7 @@
         },
         {
             "name": "Seductive Longing",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 0,
             "school": "E",
@@ -1483,7 +1483,7 @@
         },
         {
             "name": "Cordon Bleu of Arrows",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 3,
             "school": "T",
@@ -1546,7 +1546,7 @@
         },
         {
             "name": "Crown of the Bog Lord",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 5,
             "school": "I",
@@ -1624,7 +1624,7 @@
         },
         {
             "name": "Deezy's Surprise Bolt",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 2,
             "school": "V",
@@ -1740,7 +1740,7 @@
         },
         {
             "name": "Dungfire",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 2,
             "school": "V",
@@ -1811,7 +1811,7 @@
         },
         {
             "name": "Fiendish Gobblade",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 3,
             "school": "T",
@@ -1899,7 +1899,7 @@
         },
         {
             "name": "Granny's Planar Oven",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 4,
             "school": "V",
@@ -1965,7 +1965,7 @@
         },
         {
             "name": "Inner Brood",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 2,
             "school": "T",
@@ -2018,7 +2018,7 @@
         },
         {
             "name": "Kela's Gobsmack",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 0,
             "school": "V",
@@ -2108,7 +2108,7 @@
         },
         {
             "name": "Nikte's Detrimental Snotsphere",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 3,
             "school": "A",
@@ -2200,7 +2200,7 @@
         },
         {
             "name": "Johnathan Inke's Font of Vigor",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 3,
             "school": "N",
@@ -2291,7 +2291,7 @@
         },
         {
             "name": "Adhesive Globule",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "page": 0,
             "level": 2,
             "school": "C",
@@ -2389,7 +2389,7 @@
     "class": [
         {
             "name": "Escapologist",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "hd": {
                 "number": 1,
                 "faces": 12
@@ -2445,43 +2445,43 @@
                 "goldAlternative": "{@dice 5d4|5d4|Starting Gold}"
             },
             "classFeatures": [
-                "Daring Defence|Escapologist|RealmsBeyondTime|1",
-                "Get Into Trouble|Escapologist|RealmsBeyondTime|1",
-                "Always a Way Out|Escapologist|RealmsBeyondTime|2",
-                "Slippery|Escapologist|RealmsBeyondTime|2",
+                "Daring Defence|Escapologist|RealmsAcrossTime|1",
+                "Get Into Trouble|Escapologist|RealmsAcrossTime|1",
+                "Always a Way Out|Escapologist|RealmsAcrossTime|2",
+                "Slippery|Escapologist|RealmsAcrossTime|2",
                 {
-                    "classFeature": "Expert Ventures|Escapologist|RealmsBeyondTime|3",
+                    "classFeature": "Expert Ventures|Escapologist|RealmsAcrossTime|3",
                     "gainSubclassFeature": true
                 },
-                "Ability Score Improvement|Escapologist|RealmsBeyondTime|4",
-                "Extra Attack|Escapologist|RealmsBeyondTime|5",
-                "Improvisation Proficiency (d6)|Escapologist|RealmsBeyondTime|5",
-                "Ability Score Improvement|Escapologist|RealmsBeyondTime|6",
+                "Ability Score Improvement|Escapologist|RealmsAcrossTime|4",
+                "Extra Attack|Escapologist|RealmsAcrossTime|5",
+                "Improvisation Proficiency (d6)|Escapologist|RealmsAcrossTime|5",
+                "Ability Score Improvement|Escapologist|RealmsAcrossTime|6",
                 {
-                    "classFeature": "Venture Feature|Escapologist|RealmsBeyondTime|7",
+                    "classFeature": "Venture Feature|Escapologist|RealmsAcrossTime|7",
                     "gainSubclassFeature": true
                 },
-                "Ability Score Improvement|Escapologist|RealmsBeyondTime|8",
-                "Improvisation Proficiency (d8)|Escapologist|RealmsBeyondTime|9",
-                "Tools at Hand|Escapologist|RealmsBeyondTime|9",
+                "Ability Score Improvement|Escapologist|RealmsAcrossTime|8",
+                "Improvisation Proficiency (d8)|Escapologist|RealmsAcrossTime|9",
+                "Tools at Hand|Escapologist|RealmsAcrossTime|9",
                 {
-                    "classFeature": "Venture Feature|Escapologist|RealmsBeyondTime|10",
+                    "classFeature": "Venture Feature|Escapologist|RealmsAcrossTime|10",
                     "gainSubclassFeature": true
                 },
-                "Versatile Defence|Escapologist|RealmsBeyondTime|11",
-                "Ability Score Improvement|Escapologist|RealmsBeyondTime|12",
-                "Improvisation Proficiency (d10)|Escapologist|RealmsBeyondTime|13",
-                "Ability Score Improvement|Escapologist|RealmsBeyondTime|14",
+                "Versatile Defence|Escapologist|RealmsAcrossTime|11",
+                "Ability Score Improvement|Escapologist|RealmsAcrossTime|12",
+                "Improvisation Proficiency (d10)|Escapologist|RealmsAcrossTime|13",
+                "Ability Score Improvement|Escapologist|RealmsAcrossTime|14",
                 {
-                    "classFeature": "Venture Feature|Escapologist|RealmsBeyondTime|15",
+                    "classFeature": "Venture Feature|Escapologist|RealmsAcrossTime|15",
                     "gainSubclassFeature": true
                 },
-                "Ability Score Improvement|Escapologist|RealmsBeyondTime|16",
-                "Improvisation Proficiency (d12, light)|Escapologist|RealmsBeyondTime|17",
-                "Endure to Survive|Escapologist|RealmsBeyondTime|18",
-                "Ability Score Improvement|Escapologist|RealmsBeyondTime|19",
+                "Ability Score Improvement|Escapologist|RealmsAcrossTime|16",
+                "Improvisation Proficiency (d12, light)|Escapologist|RealmsAcrossTime|17",
+                "Endure to Survive|Escapologist|RealmsAcrossTime|18",
+                "Ability Score Improvement|Escapologist|RealmsAcrossTime|19",
                 {
-                    "classFeature": "Venture Feature|Escapologist|RealmsBeyondTime|20",
+                    "classFeature": "Venture Feature|Escapologist|RealmsAcrossTime|20",
                     "gainSubclassFeature": true
                 }
             ],
@@ -2493,68 +2493,122 @@
         {
             "name": "Guiding Hand Escapologist",
             "shortName": "Guiding Hand",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassFeatures": [
-                "Guiding Hand Escapologist|Escapologist|RealmsBeyondTime|Guiding Hand|RealmsBeyondTime|3",
-                "Always Wary Escapologist|Escapologist|RealmsBeyondTime|Guiding Hand|RealmsBeyondTime|7",
-                "Lead by Example|Escapologist|RealmsBeyondTime|Guiding Hand|RealmsBeyondTime|10",
-                "Bullet Catch|Escapologist|RealmsBeyondTime|Guiding Hand|RealmsBeyondTime|15",
-                "Mistake's Rebuttal|Escapologist|RealmsBeyondTime|Guiding Hand|RealmsBeyondTime|20"
+                "Guiding Hand Escapologist|Escapologist|RealmsAcrossTime|Guiding Hand|RealmsAcrossTime|3",
+                "Always Wary Escapologist|Escapologist|RealmsAcrossTime|Guiding Hand|RealmsAcrossTime|7",
+                "Lead by Example|Escapologist|RealmsAcrossTime|Guiding Hand|RealmsAcrossTime|10",
+                "Bullet Catch|Escapologist|RealmsAcrossTime|Guiding Hand|RealmsAcrossTime|15",
+                "Mistake's Rebuttal|Escapologist|RealmsAcrossTime|Guiding Hand|RealmsAcrossTime|20"
             ]
         },
         {
             "name": "Virtuoso Escapologist",
             "shortName": "Virtuoso",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassFeatures": [
-                "Virtuoso Escapologist|Escapologist|RealmsBeyondTime|Virtuoso|RealmsBeyondTime|3",
-                "The Magic Touch|Escapologist|RealmsBeyondTime|Virtuoso|RealmsBeyondTime|7",
-                "Now You See Me|Escapologist|RealmsBeyondTime|Virtuoso|RealmsBeyondTime|10",
-                "Smoke And Mirrors|Escapologist|RealmsBeyondTime|Virtuoso|RealmsBeyondTime|15",
-                "Infallible Skill|Escapologist|RealmsBeyondTime|Virtuoso|RealmsBeyondTime|20"
+                "Virtuoso Escapologist|Escapologist|RealmsAcrossTime|Virtuoso|RealmsAcrossTime|3",
+                "The Magic Touch|Escapologist|RealmsAcrossTime|Virtuoso|RealmsAcrossTime|7",
+                "Now You See Me|Escapologist|RealmsAcrossTime|Virtuoso|RealmsAcrossTime|10",
+                "Smoke And Mirrors|Escapologist|RealmsAcrossTime|Virtuoso|RealmsAcrossTime|15",
+                "Infallible Skill|Escapologist|RealmsAcrossTime|Virtuoso|RealmsAcrossTime|20"
             ]
         },
         {
             "name": "Path of Terror Barbarian",
             "shortName": "Terror",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Barbarian",
-            "classSource": "PHB", 
+            "classSource": "PHB",
             "subclassFeatures": [
-                "Path of Terror Barbarian|Barbarian|PHB|Terror|RealmsBeyondTime|3",
-                "Fight or Flight|Barbarian|PHB|Terror|RealmsBeyondTime|6",
-                "Bravely Run Away|Barbarian|PHB|Terror|RealmsBeyondTime|10",
-                "Existential Dread|Barbarian|PHB|Terror|RealmsBeyondTime|14"
+                "Path of Terror Barbarian|Barbarian|PHB|Terror|RealmsAcrossTime|3",
+                "Fight or Flight|Barbarian|PHB|Terror|RealmsAcrossTime|6",
+                "Bravely Run Away|Barbarian|PHB|Terror|RealmsAcrossTime|10",
+                "Existential Dread|Barbarian|PHB|Terror|RealmsAcrossTime|14"
             ]
         },
         {
             "name": "College of Warmth Bard",
             "shortName": "Warmth",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Bard",
-            "classSource": "PHB", 
+            "classSource": "PHB",
             "subclassFeatures": [
-                "College of Warmth Bard|Bard|PHB|Warmth|RealmsBeyondTime|3",
-                "Reassuring Touch|Bard|PHB|Warmth|RealmsBeyondTime|6",
-                "Intriguing Stranger|Bard|PHB|Warmth|RealmsBeyondTime|6",
-                "Inspiring Devotions (3)|Bard|PHB|Warmth|RealmsBeyondTime|9",
-                "Inspiring Devotions (4)|Bard|PHB|Warmth|RealmsBeyondTime|13",
-                "Obsession’s Void|Bard|PHB|Warmth|RealmsBeyondTime|14",
-                "Inspiring Devotions (5)|Bard|PHB|Warmth|RealmsBeyondTime|17"
+                "College of Warmth Bard|Bard|PHB|Warmth|RealmsAcrossTime|3",
+                "Reassuring Touch|Bard|PHB|Warmth|RealmsAcrossTime|6",
+                "Intriguing Stranger|Bard|PHB|Warmth|RealmsAcrossTime|6",
+                "Inspiring Devotions (3)|Bard|PHB|Warmth|RealmsAcrossTime|9",
+                "Inspiring Devotions (4)|Bard|PHB|Warmth|RealmsAcrossTime|13",
+                "Obsession’s Void|Bard|PHB|Warmth|RealmsAcrossTime|14",
+                "Inspiring Devotions (5)|Bard|PHB|Warmth|RealmsAcrossTime|17"
+            ]
+        },
+        {
+            "name": "Exorcist Domain Cleric",
+            "shortName": "Exorcist",
+            "source": "RealmsAcrossTime",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "1": [
+                            "find familiar",
+                            "searing smite"
+                        ],
+                        "3": [
+                            "branding smite",
+                            "warding bond"
+                        ],
+                        "5": [
+                            "crusader's mantle",
+                            "magic cricle"
+                        ],
+                        "7": [
+                            "aura of purity",
+                            "banishment"
+                        ],
+                        "9": [
+                            "destructive wave",
+                            "dispel evil and good"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Exorcist Domain Cleric|Cleric|PHB|Exorcist|RealmsAcrossTime|1",
+                "Channel Divinity: Sense Quarry|Cleric|PHB|Exorcist|RealmsAcrossTime|2",
+                "Divine Weakness|Cleric|PHB|Exorcist|RealmsAcrossTime|6",
+                "Devotion to Self|Cleric|PHB|Exorcist|RealmsAcrossTime|8",
+                "Empyreal Hunter|Cleric|PHB|Exorcist|RealmsAcrossTime|17"
+            ]
+        },
+        {
+            "name": "Sanguine Hex Sorcerer",
+            "shortName": "Sanguine Hex",
+            "source": "RealmsAcrossTime",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Sanguine Hex Sorcerer|Sorcerer|PHB|Sanguine Hex|RealmsAcrossTime|1",
+                "Wetwork|Sorcerer|PHB|Sanguine Hex|RealmsAcrossTime|3",
+                "Expanded Metamagic|Sorcerer|PHB|Sanguine Hex|RealmsAcrossTime|3",
+                "Essence Drain|Sorcerer|PHB|Sanguine Hex|RealmsAcrossTime|6",
+                "Hemohex|Sorcerer|PHB|Sanguine Hex|RealmsAcrossTime|14",
+                "Manipulate Lifeblood|Sorcerer|PHB|Sanguine Hex|RealmsAcrossTime|18"
             ]
         }
-
     ],
     "classFeature": [
         {
             "name": "Daring Defence",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 1,
             "entries": [
                 "Due to the wide variety of dangers you face, you have found the different weights of armors either hamper or aid in your escapades. In addition to the normal bonuses and attributes donning a set of armor provides you, you gain the following benefits and penalties depending on the classification of the set of armor worn.",
@@ -2593,9 +2647,9 @@
         },
         {
             "name": "Get Into Trouble",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 1,
             "entries": [
                 "Some Genetic Heritages will present optional features such as Genetic Disparity and Genetic Flaws that refer to and modify base class features. Although it is intended that you use such features, it is your choice if you want to include these or not."
@@ -2603,9 +2657,9 @@
         },
         {
             "name": "Always a Way Out",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 2,
             "entries": [
                 "At 1st level you start your transformation from human to superhuman with the simplest and most self-sufficient of implants; allowing you to survive your other heart being damaged or destroyed as well as surviving in low oxygen environments. Not just a back-up however, this secondary heart boosts the blood flow around your body.",
@@ -2614,9 +2668,9 @@
         },
         {
             "name": "Slippery",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 2,
             "entries": [
                 "At 2nd level, due to rigorous conditioning, through chemical treatment, indoctrination, and hypnotherapy alongside your implants, you gain bonuses to your ability scores each level from 2nd shown in the Ability Score Bonuses columns of the class table. These bonuses can allow your Strength and Constitution ability scores to go higher than 20, however they cannot go higher than 24, and your other ability scores cannot go higher than 20."
@@ -2624,9 +2678,9 @@
         },
         {
             "name": "Expert Ventures",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "At 3rd level, you choose to focus on how you apply your skill. Choose either the Guiding Hand or the Virtuoso venture. Both of these are detailed in the following pages. Your choice grants you features at 3rd level and again at 7th, 10th, 15th, and 20th levels."
@@ -2634,9 +2688,9 @@
         },
         {
             "name": "Ability Score Improvement",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 4,
             "entries": [
                 "When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2645,9 +2699,9 @@
         },
         {
             "name": "Extra Attack",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 5,
             "entries": [
                 "Starting at 5th level, you can attack twice whenever you take the Attack action on your turn."
@@ -2655,9 +2709,9 @@
         },
         {
             "name": "Improvisation Proficiency (d6)",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 5,
             "entries": [
                 "You are adept at working with whatever tools are at hand to get the job done. When you attack with an improvised weapon, you may use your Proficiency bonus, even  if the object you are attacking with bears no resemblance to a weapon.",
@@ -2666,9 +2720,9 @@
         },
         {
             "name": "Ability Score Improvement",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 6,
             "entries": [
                 "When you reach 6th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2677,9 +2731,9 @@
         },
         {
             "name": "Venture Feature",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 7,
             "entries": [
                 "At 7th level, you gain one feature granted by your Expert Venture"
@@ -2687,9 +2741,9 @@
         },
         {
             "name": "Ability Score Improvement",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 8,
             "entries": [
                 "When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2698,9 +2752,9 @@
         },
         {
             "name": "Improvisation Proficiency (d8)",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 9,
             "entries": [
                 "When you make an attack with an improvissed weapon, you can use d8 as it's damage die"
@@ -2708,9 +2762,9 @@
         },
         {
             "name": "Tools at Hand",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 9,
             "entries": [
                 "It goes without saying that being restrained severely limits one’s access to tools. A clever mind finds almost anything can be used to get out of a sticky situation. You may use your Proficiency bonus when using an object that can feasibly fit in a lock in an attempt to pick it."
@@ -2718,9 +2772,9 @@
         },
         {
             "name": "Venture Feature",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 10,
             "entries": [
                 "At 10th level, you gain one feature granted by your Expert Venture"
@@ -2728,9 +2782,9 @@
         },
         {
             "name": "Versatile Defence",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 11,
             "entries": [
                 "Thanks to your extensive experience with a wide variety of equipment, you have further learned to utilize your chosen defenses to maximum effect. You gain the following benefits depending on the classification of armor you are wearing (in addition to the effects of the Daring Defense feature).",
@@ -2769,9 +2823,9 @@
         },
         {
             "name": "Ability Score Improvement",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 12,
             "entries": [
                 "When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2780,9 +2834,9 @@
         },
         {
             "name": "Improvisation Proficiency (d10)",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 13,
             "entries": [
                 "When you make an attack with an improvissed weapon, you can use d10 as it's damage die"
@@ -2790,9 +2844,9 @@
         },
         {
             "name": "Ability Score Improvement",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 14,
             "entries": [
                 "When you reach 14th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2801,9 +2855,9 @@
         },
         {
             "name": "Venture Feature",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 15,
             "entries": [
                 "At 15th level, you gain one feature granted by your Expert Venture"
@@ -2811,9 +2865,9 @@
         },
         {
             "name": "Ability Score Improvement",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 16,
             "entries": [
                 "When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2822,9 +2876,9 @@
         },
         {
             "name": "Improvisation Proficiency (d12, light)",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 17,
             "entries": [
                 "When you make an attack with an improvissed weapon, you can use d12 as it's damage die",
@@ -2833,9 +2887,9 @@
         },
         {
             "name": "Endure to Survive",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 18,
             "entries": [
                 "You have honed not only your skills to escape, but your physicality such that you can survive even the harshest of situations without losing effectiveness. You can hold your breath for up to two hours, do not suffer any penalties to attack rolls or skill checks for being blinded or deafened, only need to eat and drink once every 7 days, only accrue exhaustion for not sleeping after the 7th missed night’s sleep, and do not suffer any penalties for being in an extremely hot or cold environment."
@@ -2843,9 +2897,9 @@
         },
         {
             "name": "Ability Score Improvement",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 19,
             "entries": [
                 "When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2854,9 +2908,9 @@
         },
         {
             "name": "Venture Feature",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "level": 20,
             "entries": [
                 "At 20th level, you gain one feature granted by your Expert Venture"
@@ -2866,31 +2920,31 @@
     "subclassFeature": [
         {
             "name": "Guiding Hand Escapologist",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Guiding Hand",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "Where some Escapologists hoard their skills for fame and fortune, those that venture down the path of the Guiding Hand seek to utilize their skills to safeguard those around them. Such individuals have not only grown skilled at escaping whatever dangers adventuring presents them, but to also aid their allies in achieving the same feats. Often this takes them further into the line of fire, but their unbreaking nature ensures they can survive even the most disastrous of outcomes.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Mentor's Aid|Escapologist|RealmsBeyondTime|Guiding Hand|RealmsBeyondTime|3"
+                    "subclassFeature": "Mentor's Aid|Escapologist|RealmsAcrossTime|Guiding Hand|RealmsAcrossTime|3"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Learned Luck|Escapologist|RealmsBeyondTime|Guiding Hand|RealmsBeyondTime|3"
+                    "subclassFeature": "Learned Luck|Escapologist|RealmsAcrossTime|Guiding Hand|RealmsAcrossTime|3"
                 }
             ]
         },
         {
             "name": "Mentor's Aid",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Guiding Hand",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "When a creature or object adjacent to you grapples, incapacitates, paralyzes, restrains, or stuns a single other creature within 60 feet of you, as a reaction you may instead make yourself the target of that effect. You must declare this effect before the opposed check is made."
@@ -2898,11 +2952,11 @@
         },
         {
             "name": "Learned Luck",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Guiding Hand",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "Witnesses tell the tale of your incredible luck at surviving the impossible, but you know that luck came from years of hard work and spilled blood. When you make an ability check, attack roll, or saving throw and have disadvantage on the roll, you may instead make that roll without disadvantage. You may use this feature once per short rest.",
@@ -2911,11 +2965,11 @@
         },
         {
             "name": "Always Wary Escapologist",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Guiding Hand",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 7,
             "entries": [
                 "Danger lurks around every corner, and each shadow hides a menace until it has been proven otherwise. While you are conscious you cannot be surprised and have advantage on Initiative checks. In addition, any {@skill Perception} and {@skill Investigation} skill checks you make to find hidden dangers such as traps or ambushers are made with advantage."
@@ -2923,11 +2977,11 @@
         },
         {
             "name": "Lead by Example",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Guiding Hand",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 10,
             "entries": [
                 "When you succeed on a saving throw for an ability or effect from a hostile source, you may choose a number of creatures equal to your proficiency bonus that are within 60 feet of you and that can see you to learn from your experience. Those creatures have advantage on the next saving throw they are required to make for that ability or effect. You may use this ability a number of times equal to your proficiency modifier and regain all spent uses when you finish a long rest."
@@ -2935,11 +2989,11 @@
         },
         {
             "name": "Bullet Catch",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Guiding Hand",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 15,
             "entries": [
                 "Myths circle through the Escapologist community of an individual who was so swift they could catch a projectile fired via black powder. You have grown in your skill to the point where there are now at least two people who can accomplish this feat. When a creature other than yourself that is within 15 feet of you is targeted by a ranged attack, you may use your reaction to try and catch the projectile. When you do so, you move to be adjacent to the targeted creature. Then, the attacker rolls their attack roll and you must make a Dexterity saving throw with a DC equal to the attack roll’s result.",
@@ -2949,11 +3003,11 @@
         },
         {
             "name": "Mistake's Rebuttal",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Guiding Hand",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 20,
             "entries": [
                 "You have learned to not only aid your allies in escaping the worst fate has to offer, but to actively prevent the worst of a catastrophic moment. As a reaction to a creature you can see being hit by an attack roll, failing a saving throw, or in any other way becoming imminently in danger of being harmed, you may stop the flow of time for all but yourself. No time passes for other creatures, while you take 10 turns in a row (1 minute of time).",
@@ -2964,31 +3018,31 @@
         },
         {
             "name": "Virtuoso Escapologist",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Virtuoso",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "Not all performers of escapology make the transition to adventuring, but those that do retain the focus on performance first and foremost, along with the many tricks they learned from their stagecraft. In turn the exhilaration of their daring feats inspires their party, reminds them of the wonder of the adventure they are embarked upon and the magic of their actions.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Give Them A Show|Escapologist|RealmsBeyondTime|Virtuoso|RealmsBeyondTime|3"
+                    "subclassFeature": "Give Them A Show|Escapologist|RealmsAcrossTime|Virtuoso|RealmsAcrossTime|3"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Nothing Up My Sleeve|Escapologist|RealmsBeyondTime|Virtuoso|RealmsBeyondTime|3"
+                    "subclassFeature": "Nothing Up My Sleeve|Escapologist|RealmsAcrossTime|Virtuoso|RealmsAcrossTime|3"
                 }
             ]
         },
         {
             "name": "Give Them A Show",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Virtuoso",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "When you escape from being grappled by a hostile creature or incapacitated, paralyzed, or restrained by any creature, you may give Awestruck Inspiration to each creature of your choosing that can see you and is within 60 feet of you. Awestruck Inspiration gained this way lasts for 1 minute.",
@@ -2998,11 +3052,11 @@
         },
         {
             "name": "Nothing Up My Sleeve",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Virtuoso",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "Many times the key to escaping is simply hiding the right tool in the right place. You have grown adept at sequestering the items you need within folds of clothing, the corners of your mouth, or other more imaginative places. While clothed you may have up to 8 tiny items hidden about your body. While unclothed you may have up to 3 tiny items hidden. ",
@@ -3012,11 +3066,11 @@
         },
         {
             "name": "The Magic Touch",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Virtuoso",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 7,
             "entries": [
                 "While it is traditional that escapology does not utilize real magic, no one is strictly stopping you. And besides, it would be a shame to leave so much potential for pizzazz on the table. You learn the Mage Hand, Prestidigitation, and Thaumaturgy cantrips. Your mage hand is always conjured invisible. You may use your mage hand to perform the following additional tasks:",
@@ -3033,11 +3087,11 @@
         },
         {
             "name": "Now You See Me",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Virtuoso",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 10,
             "entries": [
                 "It is not enough to merely escape, for appearing unexpectedly adds all the more dazzle to the feat. When you escape from being grappled, incapacitated, paralyzed, or restrained by a hostile creature, you may teleport to an unoccupied space up to 30 feet away."
@@ -3045,11 +3099,11 @@
         },
         {
             "name": "Smoke And Mirrors",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Virtuoso",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 15,
             "entries": [
                 "Sometimes the best way to escape from danger is to never be caught at all. An expert performer leads the eye where they want, and makes the audience believe the impossible is real. When you fail either a saving throw or a contested skill check, or are hit by an attack, as a reaction you may become invisible and teleport up to 30 feet away. You become visible after 1 minute, when you make an attack or cast a spell, or end the effect on your turn.",
@@ -3059,11 +3113,11 @@
         },
         {
             "name": "Infallible Skill",
-            "source": "RealmsBeyondTime",
+            "source": "RealmsAcrossTime",
             "className": "Escapologist",
-            "classSource": "RealmsBeyondTime",
+            "classSource": "RealmsAcrossTime",
             "subclassShortName": "Virtuoso",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 20,
             "entries": [
                 "Long practiced, and much survived, your skills have grown to the point that failure by your own hand is no longer a possibility. You may choose to automatically succeed on Strength, Dexterity, or Constitution saving throws. If an effect that requires a Strength, Dexterity, or Constitution saving throw would deal half damage on a success, you instead take no damage from that effect. You may use this ability a number of times equal to your Charisma modifier, to a minimum of 1. You regain all spent uses when you finish a short or long rest."
@@ -3071,27 +3125,27 @@
         },
         {
             "name": "Path of Terror Barbarian",
-            "source": "RealmsBeyondTime",
-            "className":"Barbarian",
+            "source": "RealmsAcrossTime",
+            "className": "Barbarian",
             "classSource": "PHB",
             "subclassShortName": "Terror",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "Key to the identity of a barbarian is their legendary rage. Many variants of barbarian will utilize their anger in a slew of ways, but unique among barbarians are those devoted to the Path of Terror. By tapping into the horror of the world around them (filled with monsters as it inevitably is) and their own fear, they elevate their rage to astounding feats of physical prowess that allow them to escape or survive that which would claim a normal person. As well, many such barbarians have proven proficient in invoking this same fear in their allies such that they too can take flight when the situation calls for it.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Terrified Rage|Barbarian|PHB|Terror|RealmsBeyondTime|3"
+                    "subclassFeature": "Terrified Rage|Barbarian|PHB|Terror|RealmsAcrossTime|3"
                 }
             ]
         },
         {
             "name": "Terrified Rage",
-            "source": "RealmsBeyondTime",
-            "className":"Barbarian",
+            "source": "RealmsAcrossTime",
+            "className": "Barbarian",
             "classSource": "PHB",
             "subclassShortName": "Terror",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "You revel in the experience of being afraid, and in turn can utilize the emotional energy it provides you to strengthen your martial prowess. When you rage, you may choose to become frightened as well. When you are frightened you do not suffer the normal penalties to ability checks and attack rolls, nor are you unable to move closer to the source of your fear.",
@@ -3102,11 +3156,11 @@
         },
         {
             "name": "Fight or Flight",
-            "source": "RealmsBeyondTime",
-            "className":"Barbarian",
+            "source": "RealmsAcrossTime",
+            "className": "Barbarian",
             "classSource": "PHB",
             "subclassShortName": "Terror",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 6,
             "entries": [
                 "You have learned to harness the surge of adrenaline that courses through your veins once you become frightened. You have advantage on attack rolls against creatures you are afraid of and you may roll a d4 and add the result to Dexterity checks and saving throws you make as long as you can see the source of your fear."
@@ -3114,11 +3168,11 @@
         },
         {
             "name": "Bravely Run Away",
-            "source": "RealmsBeyondTime",
-            "className":"Barbarian",
+            "source": "RealmsAcrossTime",
+            "className": "Barbarian",
             "classSource": "PHB",
             "subclassShortName": "Terror",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 10,
             "entries": [
                 "Seeking to escape that which scares you has fostered in you a nearly supernatural ability to remove yourself and your friends from a situation. While you are frightened, you and any creature that begins its turn within 15 feet of you may use a bonus action to Dash so long as they end that movement further from the source of your fear than they began."
@@ -3126,11 +3180,11 @@
         },
         {
             "name": "Existential Dread",
-            "source": "RealmsBeyondTime",
-            "className":"Barbarian",
+            "source": "RealmsAcrossTime",
+            "className": "Barbarian",
             "classSource": "PHB",
             "subclassShortName": "Terror",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 14,
             "entries": [
                 "There is little more terrifying than being in mortal danger. You have learned to harness this fear and turn it into a potent motivating force. While you are frightened, for every 10 hit points you are missing below half of your maximum, you gain a +1 bonus to attack rolls, ability checks, and saving throws. For example if your maximum hit points is 120 and you currently have 40 hit points, the bonus would be a +2 (for being at 20 less than half your maximum hit points). You must be conscious to gain this bonus and the bonus amount may not exceed your proficiency bonus."
@@ -3138,35 +3192,35 @@
         },
         {
             "name": "College of Warmth Bard",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "Bards who follow the College of Warmth prefer to devote their efforts toward a singular individual. In doing so they find they can more acutely empower them with their encouraging demeanor.",
                 {
-                    "type":"refSubclassFeature",
-                    "subclassFeature": "Singular Attention|Bard|PHB|Warmth|RealmsBeyondTime|3"
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Singular Attention|Bard|PHB|Warmth|RealmsAcrossTime|3"
                 },
                 {
-                    "type":"refSubclassFeature",
-                    "subclassFeature": "Whispered Adoration|Bard|PHB|Warmth|RealmsBeyondTime|3"
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Whispered Adoration|Bard|PHB|Warmth|RealmsAcrossTime|3"
                 },
                 {
-                    "type":"refSubclassFeature",
-                    "subclassFeature": "Inspiring Devotions|Bard|PHB|Warmth|RealmsBeyondTime|3"
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Inspiring Devotions|Bard|PHB|Warmth|RealmsAcrossTime|3"
                 }
             ]
         },
         {
             "name": "Singular Attention",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "When you take a short rest, you may choose a creature to focus your attention upon. That creature treats all rolls of their hit dice during this rest as their maximum (e.g. a d8 would result in an 8)."
@@ -3174,11 +3228,11 @@
         },
         {
             "name": "Whispered Adoration",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "When you spend a use of your Bardic Inspiration to inspire a creature, you may choose to whisper your inspiring words into the ear of a creature within 5 feet of you instead. When that creature rolls the Bardic Inspiration dice they gain from this process, they may instead roll two such dice and take the higher result. Bardic Inspiration dice gained by creatures this way only lasts 1 minute instead of the normal 10 minutes."
@@ -3186,11 +3240,11 @@
         },
         {
             "name": "Inspiring Devotions",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 3,
             "entries": [
                 "You may choose two Inspiring Devotions. Devotions may be used as bonus action by expending a Bardic Inspiration. Each Devotion targets one creature within 5 feet of you that can see and that can hear you, other than yourself. You may choose 1 more Devotion at 9th level and again at 13th and 17th level.",
@@ -3282,11 +3336,11 @@
         },
         {
             "name": "Reassuring Touch",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 6,
             "entries": [
                 "Your touch can disrupt mind influencing effects. As a bonus action you may place a hand upon a creature within 5 feet of you. So long as you remain touching that creature with that hand, the creature is immune to being charmed or frightened.",
@@ -3295,11 +3349,11 @@
         },
         {
             "name": "Intriguing Stranger",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 6,
             "entries": [
                 "You gain the ability to study the patterns and nuances of a creature in order to become familiar with them and their social expectations. After 1 minute of speaking with a creature in a language you can both understand, you gain advantage when making Charisma (Persuasion) and Charisma (Deception) checks against that creature."
@@ -3307,11 +3361,11 @@
         },
         {
             "name": "Obsession’s Void",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 14,
             "entries": [
                 "You have learned to utterly infatuate a creature, such that they wish it to never end. When a creature that is charmed by you has the condition end, as a reaction you may choose to spend one Bardic Inspiration and have that creature take 6d6 + your Charisma modifier psychic damage."
@@ -3319,11 +3373,11 @@
         },
         {
             "name": "Inspiring Devotions (3)",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 9,
             "entries": [
                 "You can choose another Inspiring Devotion, for a total of 3"
@@ -3331,28 +3385,284 @@
         },
         {
             "name": "Inspiring Devotions (4)",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 13,
             "entries": [
                 "You can choose another Inspiring Devotion, for a total of 4"
-
             ]
         },
         {
             "name": "Inspiring Devotions (5)",
-            "source": "RealmsBeyondTime",
-            "className":"Bard",
+            "source": "RealmsAcrossTime",
+            "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Warmth",
-            "subclassSource": "RealmsBeyondTime",
+            "subclassSource": "RealmsAcrossTime",
             "level": 17,
             "entries": [
                 "You can choose another Inspiring Devotion, for a total of 5"
-
+            ]
+        },
+        {
+            "name": "Exorcist Domain Cleric",
+            "source": "RealmsAcrossTime",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Exorcist",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 1,
+            "entries": [
+                "Clerics devoted to Exorcism specialize in safeguarding themselves from the temptations of the demons they fight. In addition, they are adept at hunting such creatures, and make for formidable martial foes",
+                {
+                    "type": "table",
+                    "caption": "Exorcist Domain Spells",
+                    "colLabels": [
+                        "Cleric Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "{@spell find familiar}, {@spell searing smite}"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell branding smite}, {@spell warding bond}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell crusader's mantle}, {@spell magic cricle}"
+                        ],
+                        [
+                            "7th",
+                            "{@spell aura of purity}, {@spell banishment}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell destructive wave}, {@spell dispel evil and good}"
+                        ]
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonus Proficiencies|Cleric|PHB|Exorcist|RealmsAcrossTime|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Martial Prowess|Cleric|PHB|Exorcist|RealmsAcrossTime|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Defend Against Temptation|Cleric|PHB|Exorcist|RealmsAcrossTime|1"
+                }
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "RealmsAcrossTime",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Exorcist",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 1,
+            "entries": [
+                "You gain proficiency with martial weapons and heavy armor"
+            ]
+        },
+        {
+            "name": "Martial Prowess",
+            "source": "RealmsAcrossTime",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Exorcist",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 1,
+            "entries": [
+                "When you hit with a melee weapon or spell attack, you may add your proficiency modifier to the damage roll",
+                "You also become proficient with Hell Striders (refer to the Common Items/Weapons section for properties and statistics)"
+            ]
+        },
+        {
+            "name": "Defend Against Temptation",
+            "source": "RealmsAcrossTime",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Exorcist",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 1,
+            "entries": [
+                "You have advantage on saving throws against being charmed or frightened by Aberrations,  Fiends, Fey, and Undead.",
+                {
+                    "type": "inset",
+                    "name": "Optional Feature (If you use optional Anguish & Rhapsody rules)",
+                    "entries": [
+                        "If you would gain Rhapsody, you must subtract 1 from the amount of Rhapsody you would gain"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Channel Divinity: Sense Quarry",
+            "source": "RealmsAcrossTime",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Exorcist",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 2,
+            "entries": [
+                "You may use your Channel Divinity to find your prey. As an action you learn the location of any Aberrations, Fiends, or Undead within 120 feet of you. Alternately, you may focus on an Aberration, Fiend, or Undead creature with which you’re familiar, and learn its location if it is within a mile of you."
+            ]
+        },
+        {
+            "name": "Divine Weakness",
+            "source": "RealmsAcrossTime",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Exorcist",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 6,
+            "entries": [
+                "As a bonus action, you may investigate the defenses of a creature within 60 feet. When you do so the GM shares with you the Resistances, Immunities, and Saving Throws of that creature, then you may choose to remove one damage resistance from that creature. You may use this ability twice and regain all spent uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Devotion to Self",
+            "source": "RealmsAcrossTime",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Exorcist",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 8,
+            "entries": [
+                "You gain Blindsight (60 feet), Telepathy (300 feet), no longer require the verbal component for spells, become immune to being charmed or frightened, and cannot gain Rhapsody",
+                {
+                    "type": "inset",
+                    "name": "Optional Feature (If you use optional Anguish & Rhapsody rules)",
+                    "entries": [
+                        "You can no longer gain any Rhapsody points"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Empyreal Hunter",
+            "source": "RealmsAcrossTime",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Exorcist",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 17,
+            "entries": [
+                "As an action, you focus your divine might to become an Empyreal Hunter. For the next 1 minute you have a +2 bonus to your armor class, your weapons deal an additional 2d8 radiant damage on a hit, and your weapons become magic weapons. During this time your weapons emit dim light in a 30-foot radius. You may use this ability a number of times equal to your Wisdom modifier, to minimum of 1, and regain all spent uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Sanguine Hex Sorcerer",
+            "source": "RealmsAcrossTime",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Hex",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 1,
+            "entries": [
+                "Whether by a curse that flows through them, or an innate affinity for sanguine arts, sorcerers of the Sanguine Hex utilize blood to empower their spellwork. Unfortunately, they need access to the blood of their victim and as such tend to get closer to their targets than most sorcerers. Yet, once they have done so they find their craft more potent than others.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Start The Flow|Sorcerer|PHB|Sanguine Hex|RealmsAcrossTime|1"
+                }
+            ]
+        },
+        {
+            "name": "Start The Flow",
+            "source": "RealmsAcrossTime",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Hex",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 1,
+            "entries": [
+                "You may use a dagger as your spellcasting focus. In addition, when you hit a creature with a melee attack using a weapon that deals either piercing or slashing damage, you may have the target make a Constitution saving throw vs your spell save DC. On a failure, they begin to bleed and gains 1 Bleeding point. Bleeding creatures take 1d4 necrotic damage at the beginning of their turn for each Bleeding point they have. A creature can use an action to make a DC 15 Wisdom (Medicine) check to stop the bleeding and remove all Bleeding points on them.",
+                "At the end of your turn, if you have not cast a spell this turn and have inflicted a Bleeding point on a creature as a result of an attack, you may cast a spell that has a casting time of 1 Action or 1 Bonus Action."
+            ]
+        },
+        {
+            "name": "Wetwork",
+            "source": "RealmsAcrossTime",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Hex",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 3,
+            "entries": [
+                "At the end of your turn, if you have not cast a spell this turn and have inflicted a Bleeding point on a creature as a result of an attack, you may cast a spell that has a casting time of 1 Action or 1 Bonus Action"
+            ]
+        },
+        {
+            "name": "Expanded Metamagic",
+            "source": "RealmsAcrossTime",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Hex",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 3,
+            "entries": [
+                "Add the following option to the list of Metamagic options you can learn",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Induce Sepsis",
+                            "entries": [
+                                "As a reaction when a creature succeeds on a Constitution saving throw for either your Start the Flow, Wetwork, Essence Drain, or Hemohex features, you may spend 1 sorcery point and have that creature reroll the saving throw. They must use the new result for that roll."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Essence Drain",
+            "source": "RealmsAcrossTime",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Hex",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 6,
+            "entries": [
+                "As a reaction when a creature succeeds on a Constitution saving throw for either your Start the Flow, Wetwork, Essence Drain, or Hemohex features, you may spend 1 sorcery point and have that creature reroll the saving throw. They must use the new result for that roll."
+            ]
+        },
+        {
+            "name": "Hemohex",
+            "source": "RealmsAcrossTime",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Hex",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 14,
+            "entries": [
+                "When a bleeding creature fails a saving throw against a 5th-level or lower spell you cast, you may spend 1 sorcery point to infuse their vital essence with the spell’s effects. The target must make a Constitution saving throw vs your spell save DC. On a failure, at the start of their next turn, they suffer the effects of the spell again (and must repeat any needed saving throws)."
+            ]
+        },
+        {
+            "name": "Manipulate Lifeblood",
+            "source": "RealmsAcrossTime",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Hex",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 18,
+            "entries": [
+                "When a bleeding creature attacks you, they must make a Charisma saving throw vs your spell save DC. On a failure they may not target you with that attack, but are free to target another creature with an attack instead."
             ]
         }
     ]

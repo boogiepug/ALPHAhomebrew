@@ -1,0 +1,361 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "RARealms",
+                "abbreviation": "R&ALPHA",
+                "full": "R&A Realms",
+                "version": "1.0.0",
+                "authors": [
+                    "Phi",
+                    "Sora",
+                    "Domino",
+                    "Szymon",
+                    "Nairod"
+                ],
+                "convertedBy": [
+                    "Szymon"
+                ],
+                "color": "b818a8",
+                "colorNight": "714480"
+            }
+        ]
+    },
+    "spell": [
+        {
+            "name": "Anthem of Resurgence",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "As you play your instrument or give voice to a powerful song or verse, a wave of rejuvenating energy sweeps over your allies. Each creature of your choice within a 30-foot radius gains temporary hit points equal to your Charisma modifier (minimum of 1), and their speed increases by 10 feet for the duration."
+            ],
+            "source": "RARealms",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the temporary hit points increase by 5 for each slot level above 1st."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "HL",
+                "THP",
+                "SCL",
+                "UA",
+                "ALT"
+            ],
+            "areaTags": [
+                "MT",
+                "E"
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Path of the Red Barbarian",
+            "shortName": "Red",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Path of the Red Barbarian|Barbarian|PHB|Red|RARealms|3",
+                "Don't stop|Barbarian|PHB|Red|RARealms|6",
+                "Relish The Feeling (d6)|Barbarian|PHB|Red|RARealms|6",
+                "Can't Stop|Barbarian|PHB|Red|RARealms|10",
+                "Relish The Feeling (d8)|Barbarian|PHB|Red|RARealms|10",
+                "Speak The Red Word|Barbarian|PHB|Red|RARealms|14",
+                "Relish The Feeling (d10)|Barbarian|PHB|Red|RARealms|14"
+            ]
+        },
+        {
+            "name": "College of Sirens Bard",
+            "shortName": "Siren",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "College of Sirens Bard|Bard|PHB|Siren|RARealms|3",
+                "Sensational Inspiration|Bard|PHB|Siren|RARealms|6",
+                "Adamantine Will|Bard|PHB|Siren|RARealms|6",
+                "Enchanting Overload|Bard|PHB|Siren|RARealms|14"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Path of the Red Barbarian",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Red",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "Path of the Red barbarians have mastered using intense Rhapsody and Anguish to fuel their fervor. They seek out such sensations, but must manage their experiences lest they become overwhelmed. Stronger examples of this path use a word of power to temporarily remove themselves from the world, gaining a respite from these sensations as a consequence",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Sensational Zeal|Barbarian|PHB|Red|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Relish the Feeling|Barbarian|PHB|Red|RARealms|3"
+                }
+            ]
+        },
+        {
+            "name": "Sensational Zeal",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Red",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "You gain the ability to focus the physical sensations you’re feeling to overcome your physical limitations. Your Sensation is the total of your current Rhapsody and Anguish added together. You gain effects according to your Sensation, along with all previous effects, as defined by the {@i Sensation Table}.",
+                "If your Sensation ever exceeds your Constitution score, you must roll a number of d4 equal to the difference at the end of each of your turns and suffer necrotic damage equal to the result. Your hit point maximum is reduced by the same amount of damage taken from this effect, returning to normal after you complete a long rest. In addition, you may never become immune to necrotic damage and the maximum amount of Anguish or Rhapsody you can have is increased by 3.",
+                {
+                    "type": "table",
+                    "caption": "Sensation Table",
+                    "colLabels": [
+                        "Sensation",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1+",
+                            "{@i Eaget to Go.} You may add twice your proficiency bonus when making Initiative checks. "
+                        ],
+                        [
+                            "3+",
+                            "{@i Enjoy the Ordeal.} If you gain Rhapsody or Anguish, you may gain temporary hit points equal to your current Sensation."
+                        ],
+                        [
+                            "5+",
+                            "{@i Excited Charge.} You may take the Dash action as a bonus action."
+                        ],
+                        [
+                            "10+",
+                            "{@i Enduring Mentality.}You gain resistance to acid, cold, fire, lightning, and thunder damage."
+                        ],
+                        [
+                            "15+",
+                            "{@i Wanton Fervor.}Each time you hit with a melee attack, you deal bonus necrotic damage equal to half your Sensation."
+                        ],
+                        [
+                            "20+",
+                            "{@i Overwhelmed Senses.} You are immune to being charmed, frightened, paralyzed, or stunned."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Relish the Feeling",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Red",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "As a reaction when you take damage you may roll a d4 and gain an amount of Anguish equal to the result. Alternately, when you heal or gain temporary hit points you may roll a d4 and gain Rhapsody equal to the result.",
+                "The die you roll for this feature changes when you reach certain levels in this class. The die becomes a d6 at 6th level, a d8 at 10th level, and a d10 at 14th level."
+            ]
+        },
+        {
+            "name": "Don't Stop",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Red",
+            "subclassSource": "RARealms",
+            "level": 6,
+            "entries": [
+                "As a reaction to being targeted by an attack or spell, you may choose to automatically allow the attack to hit or fail the saving throw. If you do so, you gain Anguish equal to the damage dealt to you from that attack or spell up to the amount that would bring you to your maximum. You lose Anguish equal to the amount gained at the end of your next turn.",
+                "You may use this ability a number of times equal to your proficiency bonus and regain all spent uses when you finish a long rest.",
+                "In addition, you make saving throws to avoid the negative effects from having too much Anguish or Rhapsody with advantage."
+            ]
+        },
+        {
+            "name": "Relish the Feeling (d6)",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Red",
+            "subclassSource": "RARealms",
+            "level": 6,
+            "entries": [
+                "At 6th level, your Relish the Feelin die changes to a d6."
+            ]
+        },
+        {
+            "name": "Can't Stop",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Red",
+            "subclassSource": "RARealms",
+            "level": 10,
+            "entries": [
+                "If an effect from a creature other than yourself would remove Rhapsody or Anguish from you, you may choose to keep them instead. This feature may not be used for Rhapsody or Anguish being removed from a lack of sustaining them."
+            ]
+        },
+        {
+            "name": "Relish the Feeling (d8)",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Red",
+            "subclassSource": "RARealms",
+            "level": 10,
+            "entries": [
+                 "At 10th level, your Relish the Feelin die changes to a d8."
+            ]
+        },
+        {
+            "name": "Relish the Feeling (d10)",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Red",
+            "subclassSource": "RARealms",
+            "level": 14,
+            "entries": [
+                 "At 14th level, your Relish the Feelin die changes to a d10."
+            ]
+        },
+        {
+            "name": "Speak The Red Word",
+            "source": "RARealms",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Red",
+            "subclassSource": "RARealms",
+            "level": 14,
+            "entries": [
+                "You utter a singular word of power, freeing you of all sensation. Choose a word when you gain this feature. As a reaction to being targeted by an attack, spell, or other effect, you may speak that word to transport yourself to a demiplane of your own creation and imagining. When you do so, remove all Rhapsody and Anguish from yourself and end all conditions you are suffering from other than exhaustion, incapacitation, or unconsciousness. While in the demiplane your hit points may not change, and you may take no actions. You automatically return from this demiplane at the end of your next turn, reappearing in the space you left. If that space is occupied, you are shunted to the nearest free space.",
+                "You may use this ability a number of times equal to your Constituion modifier, to a minimum of 1. You regain all spent uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "College of Sirens Bard",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Siren",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "Aptly named, bards who study the College of Sirens specialize in utilizing their voices to influence their allies and enemies. Such bards use the emotional sensations they’re experiencing as fuel for their magic-laden songs. While the specific methods vary depending on the individual, such bards are popular performers at Vocalariums for their ability to craft an empathic experience in the viewer. The very best of these performers require extensive recovery periods as their shows leave them an emotional wreck upon the stage, utterly spent in the pursuit of their art",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature":"Build Steam|Bard|PHB|Siren|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature":"Empathetic Connection|Bard|PHB|Siren|RARealms|3"
+                }
+            ]
+        },
+        {
+            "name": "College of Sirens Bard",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Siren",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "At 6th level, your Relish the Feelin die changes to a d6."
+            ]
+        },
+        {
+            "name": "College of Sirens Bard",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Siren",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "At 6th level, your Relish the Feelin die changes to a d6."
+            ]
+        },
+        {
+            "name": "College of Sirens Bard",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Siren",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "At 6th level, your Relish the Feelin die changes to a d6."
+            ]
+        },
+        {
+            "name": "College of Sirens Bard",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Siren",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "At 6th level, your Relish the Feelin die changes to a d6."
+            ]
+        },
+        {
+            "name": "College of Sirens Bard",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Siren",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "At 6th level, your Relish the Feelin die changes to a d6."
+            ]
+        }
+    ]
+}
