@@ -21,6 +21,50 @@
             }
         ]
     },
+    "item": [
+        {
+            "name": "Switchblades",
+            "source": "RARealms",
+            "page": 1,
+            "type": "M",
+            "rarity": "none",
+            "value": 2000,
+            "weight": 2,
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L",
+                "S"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "entries": [
+                "A set of two shortswords that can be unfurled into a bladed whip-like arrangement. While fearsome in melee, this allows the wielder to swap into a short ranged fighting style with nary a thought. The handle also features a retraction mechanism, meaning one can return to a more traditional fighting style for close quarters combat with ease.",
+                {
+                    "type": "entries",
+                    "name": "Retracted",
+                    "entries": [
+                        "While retracted, Switchblades deal {@damage 1d6} slashing damage and have the {@item shortsword|phb} weapon's Finesse and Light properties."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Unfurled",
+                    "entries": [
+                        "While unfurled, Switchblades deal {@damage 1d4} piercing damage and have the Finesse, Light, and Range (10/20) properties."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Switching Forms",
+                    "entries": [
+                        "You can unfurl or retract the Switchblades for free once on your turn."
+                    ]
+                },
+                "Specialist."
+            ]
+        }
+    ],
     "spell": [
         {
             "name": "Anthem of Resurgence",
@@ -115,6 +159,185 @@
                 "Adamantine Will|Bard|PHB|Siren|RARealms|6",
                 "Enchanting Overload|Bard|PHB|Siren|RARealms|14"
             ]
+        },
+        {
+            "name": "College of Nuisance Bard",
+            "shortName": "Nuisance",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "College of Nuisance Bard|Bard|PHB|Nuisance|RARealms|3",
+                "Cheeky Dodge|Bard|PHB|Nuisance|RARealms|6",
+                "THat All You Got?|Bard|PHB|Nuisance|RARealms|6",
+                "Cocky Pest|Bard|PHB|Nuisance|RARealms|14"
+            ]
+        },
+        {
+            "name": "Peril Domain Cleric",
+            "shortName": "Peril",
+            "source": "RARealms",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "1": [
+                            "cure wounds",
+                            "sanctuary"
+                        ],
+                        "3": [
+                            "gentle repose",
+                            "safeguard existence"
+                        ],
+                        "5": [
+                            "vampiric touch",
+                            "revivify"
+                        ],
+                        "7": [
+                            "aura of life",
+                            "death ward"
+                        ],
+                        "9": [
+                            "mass cure wounds",
+                            "raise dead"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Peril Domain Cleric|Cleric|PHB|Peril|RARealms|1",
+                "Channel Divinity: Gasping Doom|Cleric|PHB|Peril|RARealms|2",
+                "Death Denied|Cleric|PHB|Peril|RARealms|6",
+                "Peril's Reward|Cleric|PHB|Peril|RARealms|8",
+                "Master of the End|Cleric|PHB|Peril|RARealms|17"
+            ]
+        },
+        {
+            "name": "Circle of Pollen Druid",
+            "shortName": "Pollen",
+            "source": "RARealms",
+            "className": "Druid",
+            "classSource": "PHB",
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "barkskin",
+                            "enthrall"
+                        ],
+                        "5": [
+                            "plant growth",
+                            "speak with plants"
+                        ],
+                        "7": [
+                            "blight",
+                            "grasping vine"
+                        ],
+                        "9": [
+                            "commune with nature",
+                            "geas"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Circle of Pollen Druid|Druid|PHB|Pollen|RARealms|2",
+                "Concentrated Pheromones|Druid|PHB|Pollen|RARealms|6",
+                "Neural Spores|Druid|PHB|Pollen|RARealms|10",
+                "Aspect of the Bloom|Druid|PHB|Pollen|RARealms|14",
+                "Venomous Kiss|Druid|PHB|Pollen|RARealms|14"
+            ]
+        },
+        {
+            "name": "Dynamic Duelist Fighter",
+            "shortName": "Dynamic Duelist",
+            "source": "RARealms",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Dynamic Duelist Fighter|Fighter|PHB|Dynamic Duelist|RARealms|3",
+                "Mercurial Maneuvering|Fighter|PHB|Dynamic Duelist|RARealms|7",
+                "Reversing Retaliation|Fighter|PHB|Dynamic Duelist|RARealms|10",
+                "Fluid-like Focus|Fighter|PHB|Dynamic Duelist|RARealms|15",
+                "Best of Both|Fighter|PHB|Dynamic Duelist|RARealms|18"
+            ]
+        },
+        {
+            "name": "Way of the Feather Monk",
+            "shortName": "Feather",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Way of the Feather Monk|Monk|PHB|Feather|RARealms|3",
+                "Unbreakable Pin|Monk|PHB|Feather|RARealms|6",
+                "Overwhelming Sensation|Monk|PHB|Feather|RARealms|11",
+                "Merely a Tickle|Monk|PHB|Feather|RARealms|17"
+            ]
+        },
+        {
+            "name": "Way of the Heelbreaker Monk",
+            "shortName": "Heelbreaker",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Way of the Heelbreaker Monk|Monk|PHB|Heelbreaker|RARealms|3",
+                "Suffering Stomp|Monk|PHB|Heelbreaker|RARealms|6",
+                "Stay Down|Monk|PHB|Heelbreaker|RARealms|11",
+                "Taste the Dirt|Monk|PHB|Heelbreaker|RARealms|17"
+            ]
+        },
+        {
+            "name": "Way of the Wick Monk",
+            "shortName": "Wick",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Way of the Wick Monk|Monk|PHB|Wick|RARealms|3",
+                "Blazing Drive|Monk|PHB|Wick|RARealms|6",
+                "Whip of Wax|Monk|PHB|Wick|RARealms|11",
+                "Boiling Form|Monk|PHB|Wick|RARealms|17"
+            ]
+        },
+        {
+            "name": "Horrorling Witch Ranger",
+            "shortName": "Horrorling Witch",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "armor of agathys"
+                        ],
+                        "5": [
+                            "darkness"
+                        ],
+                        "9": [
+                            "hunger of hadar"
+                        ],
+                        "13": [
+                            "enservation|xge"
+                        ],
+                        "17": [
+                            "maddening darkness|xge"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Horrorling Witch Ranger|Ranger|PHB|Horrorling Witch|RARealms|3",
+                "Growing Close|Ranger|PHB|Horrorling Witch|RARealms|7",
+                "Feast|Ranger|PHB|Horrorling Witch|RARealms|7",
+                "Inseparable Pair|Ranger|PHB|Horrorling Witch|RARealms|11",
+                "Ravenous Grasp|Ranger|PHB|Horrorling Witch|RARealms|11",
+                "Purpose Fulfilled|Ranger|PHB|Horrorling Witch|RARealms|15",
+                "Flurry of Fangs and Claws|Ranger|PHB|Horrorling Witch|RARealms|15"
+            ]
         }
     ],
     "subclassFeature": [
@@ -146,6 +369,7 @@
             "subclassShortName": "Red",
             "subclassSource": "RARealms",
             "level": 3,
+            "header": 2,
             "entries": [
                 "You gain the ability to focus the physical sensations you’re feeling to overcome your physical limitations. Your Sensation is the total of your current Rhapsody and Anguish added together. You gain effects according to your Sensation, along with all previous effects, as defined by the {@i Sensation Table}.",
                 "If your Sensation ever exceeds your Constitution score, you must roll a number of d4 equal to the difference at the end of each of your turns and suffer necrotic damage equal to the result. Your hit point maximum is reduced by the same amount of damage taken from this effect, returning to normal after you complete a long rest. In addition, you may never become immune to necrotic damage and the maximum amount of Anguish or Rhapsody you can have is increased by 3.",
@@ -197,6 +421,7 @@
             "subclassShortName": "Red",
             "subclassSource": "RARealms",
             "level": 3,
+            "header": 2,
             "entries": [
                 "As a reaction when you take damage you may roll a d4 and gain an amount of Anguish equal to the result. Alternately, when you heal or gain temporary hit points you may roll a d4 and gain Rhapsody equal to the result.",
                 "The die you roll for this feature changes when you reach certain levels in this class. The die becomes a d6 at 6th level, a d8 at 10th level, and a d10 at 14th level."
@@ -210,6 +435,7 @@
             "subclassShortName": "Red",
             "subclassSource": "RARealms",
             "level": 6,
+            "header": 2,
             "entries": [
                 "As a reaction to being targeted by an attack or spell, you may choose to automatically allow the attack to hit or fail the saving throw. If you do so, you gain Anguish equal to the damage dealt to you from that attack or spell up to the amount that would bring you to your maximum. You lose Anguish equal to the amount gained at the end of your next turn.",
                 "You may use this ability a number of times equal to your proficiency bonus and regain all spent uses when you finish a long rest.",
@@ -224,6 +450,7 @@
             "subclassShortName": "Red",
             "subclassSource": "RARealms",
             "level": 6,
+            "header": 2,
             "entries": [
                 "At 6th level, your Relish the Feelin die changes to a d6."
             ]
@@ -236,6 +463,7 @@
             "subclassShortName": "Red",
             "subclassSource": "RARealms",
             "level": 10,
+            "header": 2,
             "entries": [
                 "If an effect from a creature other than yourself would remove Rhapsody or Anguish from you, you may choose to keep them instead. This feature may not be used for Rhapsody or Anguish being removed from a lack of sustaining them."
             ]
@@ -248,8 +476,9 @@
             "subclassShortName": "Red",
             "subclassSource": "RARealms",
             "level": 10,
+            "header": 2,
             "entries": [
-                 "At 10th level, your Relish the Feelin die changes to a d8."
+                "At 10th level, your Relish the Feelin die changes to a d8."
             ]
         },
         {
@@ -260,8 +489,9 @@
             "subclassShortName": "Red",
             "subclassSource": "RARealms",
             "level": 14,
+            "header": 2,
             "entries": [
-                 "At 14th level, your Relish the Feelin die changes to a d10."
+                "At 14th level, your Relish the Feelin die changes to a d10."
             ]
         },
         {
@@ -272,6 +502,7 @@
             "subclassShortName": "Red",
             "subclassSource": "RARealms",
             "level": 14,
+            "header": 2,
             "entries": [
                 "You utter a singular word of power, freeing you of all sensation. Choose a word when you gain this feature. As a reaction to being targeted by an attack, spell, or other effect, you may speak that word to transport yourself to a demiplane of your own creation and imagining. When you do so, remove all Rhapsody and Anguish from yourself and end all conditions you are suffering from other than exhaustion, incapacitation, or unconsciousness. While in the demiplane your hit points may not change, and you may take no actions. You automatically return from this demiplane at the end of your next turn, reappearing in the space you left. If that space is occupied, you are shunted to the nearest free space.",
                 "You may use this ability a number of times equal to your Constituion modifier, to a minimum of 1. You regain all spent uses when you finish a long rest."
@@ -289,72 +520,1273 @@
                 "Aptly named, bards who study the College of Sirens specialize in utilizing their voices to influence their allies and enemies. Such bards use the emotional sensations they’re experiencing as fuel for their magic-laden songs. While the specific methods vary depending on the individual, such bards are popular performers at Vocalariums for their ability to craft an empathic experience in the viewer. The very best of these performers require extensive recovery periods as their shows leave them an emotional wreck upon the stage, utterly spent in the pursuit of their art",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature":"Build Steam|Bard|PHB|Siren|RARealms|3"
+                    "subclassFeature": "Build Steam|Bard|PHB|Siren|RARealms|3"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature":"Empathetic Connection|Bard|PHB|Siren|RARealms|3"
+                    "subclassFeature": "Empathetic Connection|Bard|PHB|Siren|RARealms|3"
                 }
             ]
         },
         {
-            "name": "College of Sirens Bard",
+            "name": "Build Steam",
             "source": "RARealms",
             "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Siren",
             "subclassSource": "RARealms",
             "level": 3,
+            "header": 2,
             "entries": [
-                "At 6th level, your Relish the Feelin die changes to a d6."
+                "When you join the College of Sirens at 3rd level, you learn the ability to take the emotions you’re feeling and channel them into your vocal chords, amplifying your powers. As a bonus action, you may perform an act upon yourself or focus on one happening to you that yields intense emotional sensation. If you do so, expend one use of your Bardic Inspiration dice and gain the rolled amount to either your Rhapsody or Anguish.",
+                "This ability may not bring you above your maximum Rhapsody or Anguish, and you need not make a saving throw if the result would have yielded a result more then your maximum."
             ]
         },
         {
-            "name": "College of Sirens Bard",
+            "name": "Empathetic Connection",
             "source": "RARealms",
             "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Siren",
             "subclassSource": "RARealms",
             "level": 3,
+            "header": 2,
             "entries": [
-                "At 6th level, your Relish the Feelin die changes to a d6."
+                "As a reaction, when you gain any amount of either Rhapsody or Anguish points, you may add 1 point of that type to a willing creature within 60 feet who can hear and see you."
             ]
         },
         {
-            "name": "College of Sirens Bard",
+            "name": "Adamantine Will",
             "source": "RARealms",
             "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Siren",
             "subclassSource": "RARealms",
-            "level": 3,
+            "level": 6,
+            "header": 2,
             "entries": [
-                "At 6th level, your Relish the Feelin die changes to a d6."
+                "You make Constitution saving throws with advantage if you have at least one point of either Rhapsody or Anguish.",
+                "Starting at 14th level, if you have at least five points of either Rhapsody or Anguish, as a reaction when you are required to make a Concentration check you, rather than rolling, may choose to automatically succeed that check."
             ]
         },
         {
-            "name": "College of Sirens Bard",
+            "name": "Sensational Inspiration",
             "source": "RARealms",
             "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Siren",
             "subclassSource": "RARealms",
-            "level": 3,
+            "level": 6,
+            "header": 2,
             "entries": [
-                "At 6th level, your Relish the Feelin die changes to a d6."
+                "From 6th level, when a creature who can hear you while you have at least 3 points of either Rhapsody or Anguish rolls a Bardic Inspiration dice you gave them, they may add a bonus to that roll equal to either your current Rhapsody or Anguish, to a maximum of your Charisma modifier value."
             ]
         },
         {
-            "name": "College of Sirens Bard",
+            "name": "Enchanting Overload",
             "source": "RARealms",
             "className": "Bard",
             "classSource": "PHB",
             "subclassShortName": "Siren",
             "subclassSource": "RARealms",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "When you have experienced a large amount of emotion, you can channel the stored energy into an intense magical and emotional explosion. As an action you may expend either all Rhapsody or all Anguish points on yourself and create one of the following effects, depending on the type spent:",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "style": "list-no-bullets",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Rhapsody",
+                                    "entries": [
+                                        "Your song enchants the minds of all creatures who can discern it. All creatures of your choosing  can hear you within 60 feet must make a Charisma saving throw. The DC of this save is equal to 8 + your proficiency bonus + the amount Rhapsody spent.",
+                                        "On a successful save your song is only slightly alluring and the target makes an attack roll, ability check, or saving throw it rolls a d4 and subtracts the number rolled from the result until the end of your next turn while you are within sight of them. On a failed save the target is charmed by you until the end of your next turn. While charmed in this way when the target makes an attack roll, ability check, or saving throw it does so with disadvantage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Anguish",
+                                    "entries": [
+                                        "Your aria of anguish pierces the minds of creatures around you. All creatures of your choosing that can hear you within 60 feet must make a Charisma saving throw. The DC of this saving throw is 8 + your proficiency bonus + the amount of Anguish spent.",
+                                        "On a successful save the target finds your anguish only mildly distracting and has disadvantage on attack rolls until the end of its next turn. On a failed save the target psychically empathizes with your experience, roll a number of d6 equal to the amount of Anguish you spent, the target takes psychic damage equal to the result."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "After using this feature you fall prone and cannot use reactions until the start of your next turn. You may use this feature once per short rest."
+            ]
+        },
+        {
+            "name": "College of Nuisance Bard",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Nuisance",
+            "subclassSource": "RARealms",
             "level": 3,
             "entries": [
-                "At 6th level, your Relish the Feelin die changes to a d6."
+                "The quick wit and sharp tongue iconic to the bard profession is a potent weapon for any who wish to taunt or distract their foes. In this way some bards find satisfaction from becoming the target of their opponent’s immense ire. And yet once such bards have drawn the agitated scorn of their foe, they excel in enduring up the backlash meted out so that their allies might be spared.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Pestering Words|Bard|PHB|Nuisance|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Eye for Annoyances|Bard|PHB|Nuisance|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Invite Retribution|Bard|PHB|Nuisance|RARealms|3"
+                }
+            ]
+        },
+        {
+            "name": "Pestering Words",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Nuisance",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You learn how to say exactly the thing that most challenges the authority of others. When a creature that you can see within 60 feet of you makes an attack roll or an ability check, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll. You can choose to use this feature after the GM determines whether the attack roll or ability check succeeds or fails. The creature is immune if it can’t hear you."
+            ]
+        },
+        {
+            "name": "Eye for Annoyances",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Nuisance",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You have a keen eye for discerning what words most get under a creature’s skin. You gain proficiency in the Wisdom (Insight) skill. If you are already proficient in that skill you may choose another skill to become proficient in.",
+                "In addition, as a bonus action, you may make a Wisdom (Insight) check against a creature you can see that isn’t incapacitated, contested by the target’s Charisma (Deception) check. If you succeed, the Vicious Mockery spell cast by you deals maximum damage against that creature for the next 1 minute."
+            ]
+        },
+        {
+            "name": "Invite Retribution",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Nuisance",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You have honed your ability to distract others to such a degree that they struggle to focus on anyone other than yourself due to the ire you inspire in them. When you use your Pestering Words feature, you may mark the creature affected. The marked creature has disadvantage on attack rolls against any creature other than you. This mark fades after 1 minute or when you mark another creature in this way.",
+                "You also gain proficiency with medium armor and shields."
+            ]
+        },
+        {
+            "name": "Cheeky Dodge",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Nuisance",
+            "subclassSource": "RARealms",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Having repeatedly drawn retribution upon yourself, you have grown skillful in dodging the efforts of the creatures you have taunted. When you mark a creature via the Invite Retribution feature, note the result of the bardic inspiration used to resolve the Pestering Words portion of that ability. You gain the follow abilities:",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "When the marked creature makes an attack against you, you may add the result of the bardic inspiration to your armor class.",
+                                "As a reaction when the marked creature causes any number of creatures to make a saving throw while it can see you, all creatures other than you that are making a saving throw for that effect may add the result of the bardic inspiration as a bonus to their saving throw."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "That All You Got?",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Nuisance",
+            "subclassSource": "RARealms",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "You have learned to draw power from succeeding in your annoying agenda. When the creature you have marked via the Invite Retribution feature causes you to take damage, you may gain 1 Rhapsody then gain temporary hit points equal to twice your current Rhapsody."
+            ]
+        },
+        {
+            "name": "Cocky Pest",
+            "source": "RARealms",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Nuisance",
+            "subclassSource": "RARealms",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "As a reaction when the creature you have marked via the Invite Retribution feature targets only you with an attack, ability, or spell you may predict you will overcome whatever torment is being brought upon you. If the triggering attack fails to hit you, or you succeed on the first saving throw or ability check required by the effect, you may regain 3 uses of your bardic inspiration. However if the attack hits you, or you fail the first saving throw or ability check required by the effect, you gain 5 Anguish."
+            ]
+        },
+        {
+            "name": "Peril Domain Cleric",
+            "source": "RARealms",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Peril",
+            "subclassSource": "RARealms",
+            "level": 1,
+            "entries": [
+                "Clerics who vow to the Peril domain do so with the focus of helping others see the value of life. They seek to bring others closer to death, but to ultimately keep them from tipping over the edge into the abyss. Such practices often come with a stigma, as do all whose worship brings them close to the domain of death.",
+                {
+                    "type": "table",
+                    "caption": "Peril Domain Spells",
+                    "colLabels": [
+                        "Cleric Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "{@spell cure wounds}, {@spell sanctuary}"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell gentle repose}, {@spell safeguard existence|RARealms}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell vampiric touch}, {@spell revivify}"
+                        ],
+                        [
+                            "7th",
+                            "{@spell aura of life}, {@spell death ward}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell mass cure wounds}, {@spell raise dead}"
+                        ]
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Mortality Empowered|Cleric|PHB|Peril|RARealms|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Dangerous Endeavor|Cleric|PHB|Peril|RARealms|1"
+                }
+            ]
+        },
+        {
+            "name": "Mortality Empowered",
+            "source": "RARealms",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Peril",
+            "subclassSource": "RARealms",
+            "level": 1,
+            "entries": [
+                "You have learned to use the difference between life and death as a tool. You have a pool of Mortality points equal to your cleric level which you can spend for various effects, as listed below. Your pool of Mortality points resets when you finish a long rest.",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Terminal Velocity",
+                                    "entries": [
+                                        "If a creature you can see is below half of their maximum hit points at the start of their turn, you may spend a number of Mortality points up to half your cleric level (to a minimum of one). Until the end of their turn, that creature adds 5 feet to their speed for each Mortality point spent."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Back From The Brink",
+                                    "entries": [
+                                        "After a creature you can see makes a death saving throw, you may spend any number of Mortality points to add a bonus to the roll equal to the amount spent. You must use this feature before the death saving throw is rolled. If the roll result is greater than 20, the creature gains hit points equal to the difference. If the unmodified roll is a 1, this effect is ignored and the creature still suffers two failures as even the most careful practitioner can encounter unexpected dangers."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Reprieve",
+                                    "entries": [
+                                        "When a creature is healed by you, you may spend Mortality points up to the amount of hit points healed. The affected creature then gains temporary hit points equal to the amount of Mortality points spent."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dangerous Endeavor",
+            "source": "RARealms",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Peril",
+            "subclassSource": "RARealms",
+            "level": 1,
+            "entries": [
+                "As an action, you can bring one of your allies to a state of continued peril, helping them see the exhilaration of living. Choose a willing creature within 5 feet of you, if that creature’s hit points are above 3/4 of their hit point maximum (rounded down), their hit points are reduced to 3/4 of their maximum and their hit point maximum is reduced by an equal amount. That creature gains temporary hit points equal to the amount lost, and you gain an equal number of Mortality points.",
+                "Each creature can only be affected by this feature once per long rest. When the creature finishes a long rest, their maximum hit points are restored to normal."
+            ]
+        },
+        {
+            "name": "Channel Divinity: Gasping Doom",
+            "source": "RARealms",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Peril",
+            "subclassSource": "RARealms",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "As an action, you present your holy symbol and instill an overwhelming sense of impending doom in the people around you. Each creature of your choosing with an Intelligence score of 4 or higher, that can see you, and that is within 30 feet of you must make a Wisdom saving throw vs your spell save DC. If a creature fails the saving throw it is frightened of you and begins to suffocate. At the beginning of their turn, affected creatures can repeat the saving throw, ending these effects on a success.",
+                "Creatures that cannot be frightened or that do not need to breathe are immune to this effect. Additionally, this effect ends when an affected creature is more than 30 feet from you."
+            ]
+        },
+        {
+            "name": "Death Denied",
+            "source": "RARealms",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Peril",
+            "subclassSource": "RARealms",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "As a reaction, when a creature you can see within 60 feet of you drops to 0 hit points, you may have their hit points become 1 instead. When you do this you begin to Concentrate as though you would a spell, but this effect does not count against the number of spells you may Concentrate on. You still are required to make Concentration checks for this effect when you normally would be required to do so. You may only Concentrate on this effect for 1 creature at a time.",
+                "While you are Concentrating on this effect, that creature can neither gain nor lose hit points. When the affected creature takes damage you must make a Concentration check for this effect. Determine the DC for that check as though that damage had been dealt to you.",
+                "When you lose or end Concentration, that creature’s hit points return to 0 and the creature becomes unconscious. You may stop Concentrating on this effect at any time."
+            ]
+        },
+        {
+            "name": "Peril's Reward",
+            "source": "RARealms",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Peril",
+            "subclassSource": "RARealms",
+            "level": 8,
+            "header": 2,
+            "entries": [
+                "As an action, you can beseech your divine patron to reward those around you who have suffered from being in a dangerous situation. When you do so, choose a number of creatures up to the value of your Wisdom modifier that you can see, to a minimum of 1. Those creatures gain benefits according to the table below for the next minute.",
+                "These benefits are cumulative based on the amount of hit points they possess in comparison to their hit point maximum. Benefits are lost or gained as the creature’s hit points change.",
+                {
+                    "type": "table",
+                    "caption": "Rewards",
+                    "colLabels": [
+                        "HP",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "< 50%",
+                            "At the start of the creature’s turn, they may gain 1 Rhapsody."
+                        ],
+                        [
+                            "< 10%",
+                            "When the creature is healed, they heal an additional d6 for each point of Rhapsody they have."
+                        ],
+                        [
+                            "1",
+                            "The creature makes saving throws with advantage and all effects that restore hit points use the maximum number possible for each dice rolled. Spells you cast that heal the creature are considered to have been cast with a spell slot 2 levels higher than was actually spent to cast the spell when determining the spell’s effect for the creature."
+                        ]
+                    ]
+                },
+                "You may use this feature a number of times equal to your Wisdom modifier, to a minimum of one. You regain all uses when you complete a long rest.",
+                "In addition if your current hit points are below 50% of your hit point maximum, when you hit a creature with a weapon attack you can cause the attack to deal an extra 1d8 necrotic damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+            ]
+        },
+        {
+            "name": "Master of the End",
+            "source": "RARealms",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Peril",
+            "subclassSource": "RARealms",
+            "level": 17,
+            "header": 2,
+            "entries": [
+                "Any damage you suffer that would take you below 1 hit point may instead be subtracted from your Mortality points. While you have exactly 1 hit point, you have resistance to all damage.",
+                "In addition, attacks against you cannot score a critical hit while you below 50% HP."
+            ]
+        },
+        {
+            "name": "Circle of Pollen Druid",
+            "source": "RARealms",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Pollen",
+            "subclassSource": "RARealms",
+            "level": 2,
+            "entries": [
+                "Nature is replete with a variety of mind altering substances and it is only natural that druids would learn to utilize those substances for their own ends. While many such druids prefer to live solitary life as their affinity for plants overcomes their desire for sentient company, there are those who venture the world to ensure nature’s wellbeing despite civilization’s attempts at claiming the land for themselves. Often arriving ina haze of pollen or spores, Circle of Pollen Druids are potent allies to those who wish to alter the behavior of those around them.",
+                {
+                    "type": "table",
+                    "caption": "Circle Spells",
+                    "colLabels": [
+                        "Druid Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell barkskin}, {@spell enthrall}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell plant growth}, {@spell speak with plants}"
+                        ],
+                        [
+                            "7th",
+                            "{@spell blight}, {@spell grasping vine}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell commune with nature}, {@spell geas}"
+                        ]
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Plant Shape|Druid|PHB|Pollen|RARealms|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Pollen Burst|Druid|PHB|Pollen|RARealms|2"
+                }
+            ]
+        },
+        {
+            "name": "Plant Shape",
+            "source": "RARealms",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Pollen",
+            "subclassSource": "RARealms",
+            "header": 2,
+            "level": 2,
+            "entries": [
+                "You have attuned yourself not only with the bestial form, but also those of plants. You may wild shape into a plant type creature with a challenge rating as high as 1 in addition to the normal beast shapes. While wild shaped into a plant form you are immune to being poisoned.",
+                "Starting at 6th level, you can transform into a plant with a challenge rating as high as your druid level divided by 3, rounded down."
+            ]
+        },
+        {
+            "name": "Pollen Burst",
+            "source": "RARealms",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Pollen",
+            "subclassSource": "RARealms",
+            "header": 2,
+            "level": 2,
+            "entries": [
+                "When you summon or create one or more plants, or open any number of buds, blooms, or seed pods upon a plant (including via Druidcraft), as a reaction you may release a single burst of pollen from one point upon that plant’s surface. You may also release a burst from your body as a bonus action if you are wild shaped into a plant form.",
+                "When you do so, choose a creature that is neither a construct nor undead within 5 feet of the pollen outburst. That creature must succeed on a Wisdom saving throw against your spell save DC or suffer one of the following effects of your choice:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Beguiling Bloom.",
+                            "entries": [
+                                "The target becomes charmed by you for 1 hour and regards you as an infatuated admirer while charmed in this way. If you or your allies do anything harmful to the target, this effect ends. The target has advantage on the Wisdom saving throw for this effect if you or your allies are fighting it."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Poisonous Vapor.",
+                            "entries": [
+                                "The target suffers 2d6 poison damage and is poisoned for the next 1 hour"
+                            ]
+                        }
+                    ]
+                },
+                "You may use this feature a number of times equal to your proficiency bonus and regain all spent uses when you complete a short or long rest."
+            ]
+        },
+        {
+            "name": "Concentrated Pheromones",
+            "source": "RARealms",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Pollen",
+            "subclassSource": "RARealms",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "You have learned to concentrate the pheromones in your pollen bursts. You gain the following additional effect options for the Pollen Burst feature when you use it.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Uninhibiting Aroma.",
+                            "entries": [
+                                "The target has disadvantage on saving throws against your spells and abilities that add Rhapsody to the target. In addition, as a reaction to the target gaining any amount of Rhapsody, you may have the target gain 1 additional Rhapsody. This effect lasts for 1 hour."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Dreadful Dander.",
+                            "entries": [
+                                "The target becomes frightened of you for 1 hour. The target may repeat the saving throw at the end of each of its turns, ending the effect on a success. If the target fails 3 of these saving throws in a row, the fear cannot be ended before it has run its full duration."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Neural Spores",
+            "source": "RARealms",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Pollen",
+            "subclassSource": "RARealms",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "Your pollen has grown increasingly potent at affecting the minds of your enemies. You gain the following additional effect options for the Pollen Burst feature when you use it.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Static Haze.",
+                            "entries": [
+                                "For the next 1 minute the target has disadvantage on all concentration checks it makes. In addition, if the target begins its turn concentrating on a spell, it must make a concentration check for that spell."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Parapytic Pulse.",
+                            "entries": [
+                                "The target is stunned until the end of its next turn."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aspect of the Bloom",
+            "source": "RARealms",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Pollen",
+            "subclassSource": "RARealms",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "By channeling your connection with plants, you transform yourself for 1 minute into a form that is both plant and humanoid. This form can take any visual appearance you wish, such as causing rows of floral blooms to sprout from you in a wondrous display or making your musculature become twisting vines with leaves for hair. While in this state your Pollen Bursts affect all creatures within 10 feet of its origin. Once you use this feature you may not use it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Venomous Kiss",
+            "source": "RARealms",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Pollen",
+            "subclassSource": "RARealms",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Your lips carry a potent toxin which you are capable of delivering via a kiss. As an action while you are in humanoid, plant, or Aspect of the Bloom forms, you may make an unarmed melee attack against a target that is adjacent to you. On a hit the attack deals 2d6 + your proficiency bonus + your Wisdom modifier poison damage and the target must make a Constitution saving throw. On a failure the target suffers an additional 5d10 poison damage and becomes poisoned. You may use this feature a number of times equal to your Wisdom modifier, to a minimum of 1. You regain all spent uses when you complete a long rest."
+            ]
+        },
+        {
+            "name": "Dynamic Duelist Fighter",
+            "source": "RARealms",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Dynamic Duelist",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "Nature is replete with a variety of mind altering substances and it is only natural that druids would learn to utilize those substances for their own ends. While many such druids prefer to live solitary life as their affinity for plants overcomes their desire for sentient company, there are those who venture the world to ensure nature’s wellbeing despite civilization’s attempts at claiming the land for themselves. Often arriving ina haze of pollen or spores, Circle of Pollen Druids are potent allies to those who wish to alter the behavior of those around them.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Switchblade Proficiency|Fighter|PHB|Dynamic Duelist|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shifting Stance|Fighter|PHB|Dynamic Duelist|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Variable Violence|Fighter|PHB|Dynamic Duelist|RARealms|3"
+                }
+            ]
+        },
+        {
+            "name": "Switchblade Proficiency",
+            "source": "RARealms",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Dynamic Duelist",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You become proficient with {@item Switchblades|RARealms} (refer to the Common Items/Weapons section for properties and statistics)"
+            ]
+        },
+        {
+            "name": "Shifting Stance",
+            "source": "RARealms",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Dynamic Duelist",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You have learned to flow between aggressive and defensive styles for your fighting technique, weaving each together into a more nuanced and deadly whole. At any given time, you are either in a Aggressive or a Defensive state of mind. You may change between the two for free at the end of your turn.",
+                "The class features below are presented with two options, each representing and applying to its noted state of mind."
+            ]
+        },
+        {
+            "name": "Variable Violence",
+            "source": "RARealms",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Dynamic Duelist",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "(Aggressive) Punishing Strike.",
+                            "entries": [
+                                "When you hit with a ranged attack, you may add 1 Anguish to the target and then deal bonus piercing damage equal to the target’s Anguish."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "(Defensive) Anguished Strike.",
+                            "entries": [
+                                "When you hit with a melee attack, you may either gain temporary hit points equal to your current Anguish or gain 1 Anguish."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mercurial Maneuvering",
+            "source": "RARealms",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Dynamic Duelist",
+            "subclassSource": "RARealms",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "(Aggressive) Antagonistic Shift.",
+                            "entries": [
+                                "As a bonus action, you may move up to 15 feet to a space adjacent to a hostile creature without provoking attacks of opportunity. Starting at 13th level, as a bonus action, you may instead teleport to a space up to 15 feet away that is adjacent to at least one hostile creature. At the end of your turn, change your state of mind to Defensive."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "(Defensive) Stalking Shift.",
+                            "entries": [
+                                "As a bonus action, if you are adjacent to a hostile creature you may move up to 15 feet to a space that is not adjacent to any hostile creatures without provoking attacks of opportunity. Starting at 13th level, as a bonus action, you may teleport to an unoccupied space up to 15 feet away that is not adjacent to any hostile creatures. At the end of your turn, change your state of mind to Aggressive."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Reversing Retaliation",
+            "source": "RARealms",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Dynamic Duelist",
+            "subclassSource": "RARealms",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "(Aggressive) Distracting Rebuke.",
+                            "entries": [
+                                "When you succeed on a saving throw from another creature that has at least 1 Anguish, as a reaction you may make an attack against that creature. If that attack hits, until the end of your next turn, that creature makes concentration checks with disadvantage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "(Defensive) Enduring Rebuke.",
+                            "entries": [
+                                "When another creature hits you with an attack and you have 1 or more Anguish, as a reaction you may remove 1 Anguish from yourself to increase armor class by an amount equal to your Dexterity modifier against the triggering attack."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fluid-like Focus",
+            "source": "RARealms",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Dynamic Duelist",
+            "subclassSource": "RARealms",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "(Aggressive) Domineering Burst.",
+                            "entries": [
+                                "When you use an Action Surge, you can use the extra action you gain to cast the Command spell. If you do so, the spell affects all creatures of your choice within 30 feet of you, that can hear you, and have at least 1 Anguish. The DC for the saving throw is equal to 8 + your Charisma modifier + your proficiency bonus + the amount of Anguish the target currently has."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "(Defensive) Enduring Burst.",
+                            "entries": [
+                                "When you use your Second Wind, you may choose to become resistant to any one of the following damage types for 1 minute: acid, cold, fire, force, lightning, necrotic, radiant, or thunder. You may choose an additional damage type for every 2 points of Anguish you have. If you have 5 or more Anguish, you may instead choose one of the damage types to become immune to rather than gain any resistances."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Best of Both",
+            "source": "RARealms",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Dynamic Duelist",
+            "subclassSource": "RARealms",
+            "level": 18,
+            "header": 2,
+            "entries": [
+                "As a bonus action you may change your state of mind to be Balanced. While Balanced, you are considered to be in both Aggressive and Defensive states of mind. An effect may not change your state of mind during this time (such as when using Mercurial Maneuvering). After 1 minute, you must return to either an Aggressive or Defensive state of mind. You may use this feature twice and regain all spent uses when you complete a long rest."
+            ]
+        },
+        {
+            "name": "Way of the Feather Monk",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Feather",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "Nerve clusters are a well exploited point of vulnerability by those who harness ki to manipulate the body’s energy. Those that are adept in the Way of the Feather use these susceptible areas to overwhelm their foe’s nervous systems to the point of hysteria. When sustained over time, this hysteria can prove overwhelming as the victim struggles to breathe or do anything other than flail about laughing. In this way, such monks have proven themselves experts in incapacitating key targets about the battlefield.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Nerve Assault|Monk|PHB|Feather|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Robust Grappler|Monk|PHB|Feather|RARealms|3"
+                }
+            ]
+        },
+        {
+            "name": "Nerve Assault",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Feather",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "As a bonus action you may spend a ki point to attack the vulnerable nerve centers of a creature you have grappled in an attempt to render them useless through laughter. The target must make a Constitution saving throw vs your ki save DC. Creatures that are restrained make this saving throw with disadvantage. On a failure both you and the creature fall prone and the target becomes overwhelmed by hysteria until the end of your next turn. While the target is overwhelmed by hysteria it is incapacitated and cannot stand up. This does not break your grapple. If you use this ability on a creature that is already hysterical, you need not spend a ki point.",
+                "If a creature that is incapacitated from hysteria in this way takes damage it may make another saving throw, ending the effect on a success."
+            ]
+        },
+        {
+            "name": "Robust Grappler",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Feather",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You may use your Dexterity (Acrobatics) skill when making a grapple check. In addition you may choose to use either your Strength or Wisdom when making an Athletics skill check."
+            ]
+        },
+        {
+            "name": "Unbreakable Pin",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Feather",
+            "subclassSource": "RARealms",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "You make grapple checks with advantage. If a creature attempts to break your grapple, as a reaction you may spend a ki point to impose disadvantage on any ability checks they make to break free from your grapple until the start of your next turn."
+            ]
+        },
+        {
+            "name": "Overwhelming Sensation",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Feather",
+            "subclassSource": "RARealms",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "You have learned to harness overwhelming, unending hysteria as a potent weapon. When a creature fails the saving throw for your Nerve Assault ability, as a reaction you may have them gain 1 Anguish. If as a result of this effect the creature must make a Constitution saving throw for exceeding its maximum Anguish, you may spend a ki point to impose disadvantage on that saving throw."
+            ]
+        },
+        {
+            "name": "Merely a Tickle",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Feather",
+            "subclassSource": "RARealms",
+            "level": 17,
+            "header": 2,
+            "entries": [
+                "When you are hit by an attack, you may spend a ki point to halve the damage you take from the attack and gain 2 Rhapsody."
+            ]
+        },
+        {
+            "name": "Way of the Heelbreaker Monk",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Heelbreaker",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "Many monks utilize feet as a weapon, for a kick can be even more potent than a punch. Yet for Heelbreakers, they take this to an extreme. Such monks prefer to bring their foes the ground, making their stomping and kicking even more effective than it would otherwise be. Such monks can also utilize these techniques to control the positioning and movement of their enemies.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bring to Heel|Monk|PHB|Heelbreaker|RARealms|3"
+                }
+            ]
+        },
+        {
+            "name": "Bring to Heel",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Heelbreaker",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "After you hit with one of the attacks granted by your Flurry of Blows, you may have the target creature make a Dexterity saving throw against your ki save DC. On a failure it becomes knocked prone.",
+                "In addition, as a bonus action, you may make a contested Charisma (Intimidation) against an adjacent creature’s Charisma (Intimidation). If you succeed, that creature becomes prone and frightened. The creature is no longer frightened at the end of its next turn."
+            ]
+        },
+        {
+            "name": "Suffering Stomp",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Heelbreaker",
+            "subclassSource": "RARealms",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "After you hit a prone creature with an unarmed attack using a kick, at the end of your turn, you may add 1 Anguish to a single creature that was hit by one of those unarmed attacks.",
+                "As an action, you may make a single unarmed kick attack against a prone creature. If you hit, the attack deals 1d6 additional bludgeoning damage for every Anguish point the target currently has."
+            ]
+        },
+        {
+            "name": "Stay Down",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Heelbreaker",
+            "subclassSource": "RARealms",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "Creatures trying to stand up within melee range of you provoke opportunity attacks from you. When you hit a prone creature with an unarmed opportunity attack, they are prevented from standing up and their speed becomes 0 for the remainder of their turn."
+            ]
+        },
+        {
+            "name": "Taste the Dirt",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Heelbreaker",
+            "subclassSource": "RARealms",
+            "level": 17,
+            "header": 2,
+            "entries": [
+                "When you hit with an unarmed attack against a prone creature, you may spend a ki point to make the attack a critical hit."
+            ]
+        },
+        {
+            "name": "Way of the Wick Monk",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Wick",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "Wielding a set of gloves that utilize the classis ritualistic material of burning wax, Way of the Wick monks can brand their enemies for later exploitation. Not only that, but they can brand themselves to amp up their focus and empower their strikes with burning heat. The most talented practitioners have learned to transform themselves into roiling elementals of molten wax, epitomes of the fighting style.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonus Proficiencies|Monk|PHB|Wick|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Smoldering Ignition|Monk|PHB|Wick|RARealms|3"
+                }
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Wick",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You become proficient with a specialized set of gauntlets known as Melt Gloves. While not technically a weapon, they allow you make unarmed strikes as normal. If you are wieldinga pair of them, they do not count as armor and you do not lose the benefits of Unarmored Defense. These gauntlets enable a variety of other Way of the Wick features.",
+                {
+                    "type": "inset",
+                    "name": "Melt Gloves",
+                    "entries": [
+                        "A set of lightly enchanted leather gloves covered in armor plating commonly used by Way of the Wick Monks. The wrist and palm feature an arcane heat source which is fed by a reservoir of wax, the result of which is channeled down the fingers via grooves in the gauntlets to claw-like fingertips."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Smoldering Ignition",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Wick",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You can channel your essence into strikes with your Melt Gloves. While wielding them, you gain following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Sinfeing Strike",
+                            "entries": [
+                                "At the end of your turn, you may add 1 Anguish to any creature you hit with 2 or more unarmed attacks this turn."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Searing Brand",
+                            "entries": [
+                                "When you hit with a melee attack using Melt Gloves, you may spend 1 ki point to leave a burning wax seal on their skin. When you do so the target is considered branded by you, and they gain 1 Anguish."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Erupting Strike",
+                            "entries": [
+                                "As a bonus action, you may spend 1 ki point to erupt your brand into an inferno, exploiting their suffering. When you do so, remove your brand and deal 1d6 fire damage for each Anguish point that creature has. The target then removes all of their Anguish points. Double the amount of damage dice rolled for this effect after you reach 14th level in this class.."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Blazing Drive",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Wick",
+            "subclassSource": "RARealms",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "As a bonus action you may mark yourself with a brand of wax. When you do so, you gain 1 Anguish and all melee attacks you make this round deal bonus fire damage equal to your Anguish.",
+                "You must be wielding Melt Gloves to benefit from this feature."
+            ]
+        },
+        {
+            "name": "Whip of Wax",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Wick",
+            "subclassSource": "RARealms",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "Your unarmed attack range is extended to 10 feet while you are wielding a pair of Melt Gloves. In addition, as an action you may spend 2 ki points to let loose a searing arc of wax to strike foes. If you do so, all creatures within 10 feet of you must make a Dexterity saving throw against your ki save DC. On a failed save, that creature suffers 1d6 fire damage for each Anguish point it has."
+            ]
+        },
+        {
+            "name": "Boiling Form",
+            "source": "RARealms",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Wick",
+            "subclassSource": "RARealms",
+            "level": 17,
+            "header": 2,
+            "entries": [
+                "You can focus your ki into your Melt Gloves, depositing blazing paraffin onto your skin to alter your form into a roiling elemental made of flame and wax. As an action, you may spend 2 ki points to take on this form for 1 minute. While you are transformed your melee attacks deal fire damage instead of their normal damage and the first time you enter a creature’s space on a turn that creature takes 1d10 fire damage and is set ablaze. Until a creature takes an action to douse the blaze that creature takes 1d10 fire damage at the start of each of its turns and gains 1 Anguish."
+            ]
+        },
+        {
+            "name": "Horrorling Witch Ranger",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "entries": [
+                "Rangers who have devoted themselves to a Horrorling have taken within themselves an aberrant creature and are slowly being changed by it. This creature may come in many forms, but always they slowly increase the symbiotic bond between host and Horrorling. As the Horroling grows, the ranger becomes deadlier, for the Horrorling gifts them with physical changes that increase their combat prowess.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Horrorling Witch Magic|Ranger|PHB|Horrorling Witch|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonded Beginnings|Ranger|PHB|Horrorling Witch|RARealms|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Symbiotic Warfare|Ranger|PHB|Horrorling Witch|RARealms|3"
+                }
+            ]
+        },
+        {
+            "name": "Horrorling Witch Magic",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, the Horrorling entity you’ve become bonded to teaches you additional spells when you reach certain levels with this class, as shown in the Horrorling Witch Spells table. The spell counts as a ranger spell for you, but doesn’t count against the number of ranger spells you know. If the spell is of a level higher than you have spell slots for, you may cast it once per long rest without requiring a spell slot.",
+                {
+                    "type": "table",
+                    "caption": "Horrorling Witch Spells",
+                    "colLabels": [
+                        "Ranger Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell Armor of Agathys}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell Darkness}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell Hunger of Hadar}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell Enervation|xge}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell Maddening Darkness|xge}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bonded Beginnings",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You are inseparable from the Horrorling to which you have bonded. The Horrorling is a sentient entity that can speak with you telepathically, and vice versa. If you become unbonded with your Horrorling, or it is forcibly removed from you, you take 4d6 psychic damage and become stunned. You regain the lost hit points if the Horrorling is returned to you."
+            ]
+        },
+        {
+            "name": "Symbiotic Warfare",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You and your Horrorling have learned to fight together. Though it is not large yet, you can make use of its physical prowess. You gain access to the following features.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "name": "Claws and Pincers",
+                            "entries": [
+                                "As a melee weapon attack, you may use your Horrorlings limbs to strike. The attack bonus for this is equal to your spell attack bonus. On a hit, this attack deals 1d8 plus your Dexterity modifier slashing damage. If you make at least one attack with this feature, you may make another as a bonus action."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Spider Walk",
+                            "entries": [
+                                "ou may climb surfaces without needing to make an ability check."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Eyes of the Horrorling",
+                            "entries": [
+                                "You can see normally in dakrness, both magical and nonmagical, to a distance of 120 feet."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Growing Close",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "You have begun to give some of your physique over to the Horrorling. You may no longer wield weapons, relying entirely on the claws and pincers of your Horrorling to attack. As well, your claws and pincers count as magical for the purposes of overcoming resistances and immunities to nonmagical attacks and damage. However, if your Horrorling is removed from you, you take 6d6 psychic damage and become incapacitated until is it returned to you.",
+                "At the same time, your Horrorling has been growing stronger. You may add your Dexterity modifier to attack rolls with your {@i Claws and Pincers} and add your Wisdom modifier to the damage. You also gain a 5 foot bonus to your speed."
+            ]
+        },
+        {
+            "name": "Feast",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "Your Horrorling’s feeding on prey has begun to tangibly benefit both of you. When you kill a creature of challenge rating 2 or higher, as a reaction you may feast on its corpse, consuming it in the process. When you do so, you regain hit points equal to your Ranger level plus your Wisdom modifier. You may use this ability a number of times equal to your proficiency bonus and regain all spent uses when you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Inseparable Pair",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "You and your Horrorling have become wholly intertwined. If your Horrorling is removed from you, you die. However, as the Horrorling’s tendrils have become hooked into your brain, you are fortified by its own force of will. You gain proficiency in both Wisdom and Charisma saving throws."
+            ]
+        },
+        {
+            "name": "Ravenous Grasp",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "The joy of consumption provided by your Horrorling has taught you to derive fulfillment by partaking in that act. As a reaction when you hit a creature of your size or smaller with your {@i Claws and Pincers}, you may have the target make a Strength saving throw vs your spell save DC. On a failure the target is pulled into your writhing biomass and becomes grappled and restrained by you. If the creature escapes thisgrapple, it is no longer restrained by you. You may only have1 creature restrained in this way at a time and may release arestrained creature during your turn without using an action.",
+                "If you begin your turn with a creature restrained by you in this way, you may gain 1 Rhapsody. As well, you deal bonus damage equal to your Rhapsody with your Claws and Pincers attacks that hit the restrained creature."
+            ]
+        },
+        {
+            "name": "Purpose Fulfilled",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "You have fused with your Horrorling at the deepest levels. You may no longer be separated from your Horrorling. You are considered to always be under the effects of the {@i Spider Climb} spell, without requiring concentration. In addition, add 5 feet to your walking speed.",
+                "As well, being so possessed by your Horroling brings you satisfaction beyond words. You always have at least 3 Rhapsody points, and no effect or ability can bring you lower than 3."
+            ]
+        },
+        {
+            "name": "Flurry of Fangs and Claws",
+            "source": "RARealms",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Horrorling Witch",
+            "subclassSource": "RARealms",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "As an action, you may make a Claws and Pincers attack against all creatures within 15 feet of you. You may use this ability twice and regain all spent uses when you complete a short or long rest."
             ]
         }
     ]

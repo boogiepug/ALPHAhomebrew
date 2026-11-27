@@ -1198,6 +1198,53 @@
                 "Its smoke curls into thoughtful spirals, pondering answers just beyond reach.",
                 "Add your Proficiency Bonus to all Intelligence-based skill checks when smoking this pipe."
             ]
+        },
+        {
+            "name": "Sargat",
+            "source": "RealmsAcrossTime",
+            "page": 1,
+            "type": "S",
+            "rarity": "none",
+            "value": 3000,
+            "weight": 30,
+            "ac": 3,
+            "weaponCategory": "martial",
+            "dmg1": "1d8",
+            "dmgType": "B",
+            "bonusAc": "+1",
+            "bonusWeapon": "+1",
+            "entries": [
+                "A set of two massive tower shields primarily used by Indomitable Oath Paladins, one held in either hand.",
+                {
+                    "type": "entries",
+                    "name": "Shield",
+                    "entries": [
+                        "Sargat count as shields and provide a +3 bonus to AC while wielded."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Weapon",
+                    "entries": [
+                        "If you are proficient with Sargat, you can attack with them as though they were weapons that deal {@damage 1d8} + your Strength modifier bludgeoning damage on a hit."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dual Wielding",
+                    "entries": [
+                        "If you wield one Sargat in each hand and take the Attack action during your turn, you can make a single attack as a bonus action."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Magical Enhancement",
+                    "entries": [
+                        "If a set of Sargats is enchanted to gain a +1 or higher bonus, it gains a commensurate bonus to the AC bonus it provides, attack rolls made with it, and damage rolls made with it."
+                    ]
+                },
+                "Specialist."
+            ]
         }
     ],
     "monster": [
@@ -2601,6 +2648,59 @@
                 "Hemohex|Sorcerer|PHB|Sanguine Hex|RealmsAcrossTime|14",
                 "Manipulate Lifeblood|Sorcerer|PHB|Sanguine Hex|RealmsAcrossTime|18"
             ]
+        },
+        {
+            "name": "Oath of the Indomitable Paladin",
+            "shortName": "Indomitable",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "protection from good and evil",
+                            "sanctuary"
+                        ],
+                        "5": [
+                            "warding bond",
+                            "aid"
+                        ],
+                        "9": [
+                            "beacon of hope",
+                            "crusader's mantle"
+                        ],
+                        "13": [
+                            "freedom of movement",
+                            "death ward"
+                        ],
+                        "17": [
+                            "circle of power",
+                            "commune"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Oath of the Indomitable Paladin|Paladin|PHB|Indomitable|RealmsAcrossTime|3",
+                "Aura of Bravery|Paladin|PHB|Indomitable|RealmsAcrossTime|7",
+                "Living Shield|Paladin|PHB|Indomitable|RealmsAcrossTime|7",
+                "Unyielding Bulwark|Paladin|PHB|Indomitable|RealmsAcrossTime|15",
+                "Indomitable Champion|Paladin|PHB|Indomitable|RealmsAcrossTime|20"
+            ]
+        },
+        {
+            "name": "School of Inscripton",
+            "shortName": "Inscription",
+            "source": "RealmsAcrossTime",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "School of Inscription|Wizard|PHB|Inscription|RealmsAcrossTime|2",
+                "Compose Boon|Wizard|PHB|Inscription|RealmsAcrossTime|6",
+                "True Statement|Wizard|PHB|Inscription|RealmsAcrossTime|10",
+                "Branding Incantation|Wizard|PHB|Inscription|RealmsAcrossTime|14"
+            ]
         }
     ],
     "classFeature": [
@@ -3663,6 +3763,277 @@
             "level": 18,
             "entries": [
                 "When a bleeding creature attacks you, they must make a Charisma saving throw vs your spell save DC. On a failure they may not target you with that attack, but are free to target another creature with an attack instead."
+            ]
+        },
+        {
+            "name": "Oath of the Indomitable Paladin",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Indomitable",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 3,
+            "entries": [
+                "Using a set of massive tower shields known as Sargat, paladins who have taken the Indomitable Oath have devoted themselves to protecting others. Their primary tool for doing so is via those same shields, for they can adhere allies to them and impart their formidable defensive prowess upon them by enveloping them in a shield of divine energy. The sight of such a humanoid bastion can also inspire others, diminishing the danger that might be lurking.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Domain Spells|Paladin|PHB|Indomitable|RealmsAcrossTime|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonus Proficiencies|Paladin|PHB|Indomitable|RealmsAcrossTime|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Sargat Sanctuary|Paladin|PHB|Indomitable|RealmsAcrossTime|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Channel Divinity|Paladin|PHB|Indomitable|RealmsAcrossTime|3"
+                }
+            ]
+        },
+        {
+            "name": "Domain Spells",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Indomitable",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 3,
+            "entries": [
+                {
+                    "type": "table",
+                    "caption": "Domain Spells",
+                    "colLabels": [
+                        "Paladin Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell Protection from Good and Evil}, {@spell Sanctuary}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell Warding Bond}, {@spell Aid}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell Beacon of Hope}, {@spell Crusader's Mantle}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell Freedom of Movement}, {@spell Death Ward}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell Circle of Power}, {@spell Commune}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Indomitable",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 3,
+            "entries": [
+                "You become proficient with {@item Sargat|RealmsAcrossTime}."
+            ]
+        },
+        {
+            "name": "Sargat Sanctuary",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Indomitable",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 3,
+            "entries": [
+                "As an action you may release tendrils of divine energy to attach a creature of your size or smaller that you can see to one of your {@item Sargat|RealmsAcrossTime} before shielding them behind divine energy. You may target either a willing creature up to 60 feet from you or an unwilling creature within 15 feet. An unwilling creature must succeed on a Charisma saving throw vs your spell save DC or be bound to the {@item Sargat|RealmsAcrossTime}. Unwilling creatures may repeat this saving throw at their end of their turn, escaping on a success.",
+                "A creature attached in this way is restrained and grappled by you but attacks against it do not gain advantage because of this. For the purpose of effects which target all creatures in an area you and the attached creature are considered one target, you make any checks or saving throws required for the effect, and all damage or conditions from that effect are only applied to you.",
+                "While attached to your {@item Sargat|RealmsAcrossTime}, any damage dealt to that creature is dealt to you instead and they are considered to have three-quarters cover. If you move while you have one or more creatures attached to your {@item Sargat|RealmsAcrossTime}, you move at half speed. You may release that creature from your {@item Sargat|RealmsAcrossTime} at any time during your turn without using an action. If you become incapacitated all creatures attached to your {@item Sargat|RealmsAcrossTime} are immediately detached.",
+                "At 3rd level you may have only a single creature attached at a time. At 11th level this improves to two creatures, one on each {@item Sargat|RealmsAcrossTime}. You may use this feature twice and regain all spent uses when you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Channel Divinity",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Indomitable",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 3,
+            "entries": [
+                "When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+                {
+                    "type": "entries",
+                    "name": "Bundle Up",
+                    "entries": [
+                        "You have learned to channel divine energies into your {@item Sargat|RealmsAcrossTime} to better protect those you have attached to it. As a reaction to either a creature attached to your {@item Sargat|RealmsAcrossTime} taking damage or you being targeted by an effect that damages all creatures in an area while you have at least one creatureattached to your {@item Sargat|RealmsAcrossTime}, both you and the creatures attached to your {@item Sargat|RealmsAcrossTime} become resistant to all damage until the end of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Clensing Ward",
+                    "entries": [
+                        "As a bonus action, you may enhance the energies of your {@item Sargat|RealmsAcrossTime} to include a restoring effect. For 1 minute you are immune to all negative conditions that afflict a creature attached to your {@item Sargat|RealmsAcrossTime} (this means you automatically become immune to being either grappled or restrained). This effect may not make you immune to becoming exhausted, incapacitated, or unconscious."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aura of Bravery",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Indomitable",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "The image of your determination to protect others forms an inspiring aura around you. At the end of your turn, you may have all creatures of your choosing within 10 feet of you and that can see you gain an amount of temporary hit points equal to your Charisma modifier.",
+                "In addition, creatures within 10 feet of you gain advantage on saving throws against being Charmed while you are not unconscious.",
+                "At 18th level, the range of this aura increases to 30 feet."
+            ]
+        },
+        {
+            "name": "Living Shield",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Indomitable",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "You have learned to punish the transgressors you have attached to your {@item Sargat|RealmsAcrossTime} by turning their own allies’ attacks against them. As a reaction when you are hit by an attack and have at least one unwilling creature attached to your {@item Sargat|RealmsAcrossTime}, you may have that attack target the creature attached to your {@item Sargat|RealmsAcrossTime}. When you do so, you do not suffer the normal damage as a result of that creature taking damage.",
+                "You may use this ability a number of times equal to your proficiency modifier and regain all spent uses when you short or a long rest."
+            ]
+        },
+        {
+            "name": "Unyielding Bulwark",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Indomitable",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "Your refusal to fall when people need you most hardens your physique against elemental damage. While you have at least one willing creature attached to your {@item Sargat|RealmsAcrossTime}, you gain resistance to acid, cold, fire, lightning, poison, and thunder damage.",
+                "In addition, creatures that have been attached to your {@item Sargat|RealmsAcrossTime} against their will have disadvantage on the saving throw to escape from being restrained."
+            ]
+        },
+        {
+            "name": "Indomitable Champion",
+            "source": "RealmsAcrossTime",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Indomitable",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 20,
+            "header": 2,
+            "entries": [
+                "Each creature of your choosing within 30 feet of you has advantage on saving throws against effects that cause any of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, or stunned.",
+                "You may also use a bonus action to become immune to all damage until the start of your next turn. Once you have used this feature, you may not use it again until you finish a short rest."
+            ]
+        },
+        {
+            "name": "School of Inscription",
+            "source": "RealmsAcrossTime",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Inscription",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 2,
+            "entries": [
+                "Arcanists who pursue the ancient art of inscription seek to wield words in the same manner one might a sword. Using both their own bodies and those of their foes, they are adept at inscribing spell effects such that they are more potent than when normally crafted. Many also utilize their own bodies as extensions of their spellbooks, ensuring they always have the spells they require prepared.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Inscription Savant|Wizard|PHB|Inscription|RealmsAcrossTime|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Living Codex|Wizard|PHB|Inscription|RealmsAcrossTime|2"
+                }
+            ]
+        },
+        {
+            "name": "Inscription Savant",
+            "source": "RealmsAcrossTime",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Inscription",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 2,
+            "entries": [
+                "The gold and time you must spend to copy a spell into your spellbook is halved for spells with a range of Self or Touch."
+            ]
+        },
+        {
+            "name": "Living Codex",
+            "source": "RealmsAcrossTime",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Inscription",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 2,
+            "entries": [
+                "Your inscription technique has grown more potent such that you can store spells upon your own flesh. You may store a number of additional spells equal to your profiency bonus by writing them upon your body with specially made ink.",
+                "One spell can be written upon each limb, one upon the torso, and one upon the head or face. Writing these spells upon yourself still requires 50 gp worth of material components and 2 hours for each level of spell inscribed. However, you are considered as always having these spells prepared and they do not count against the amount of spells you can prepare.",
+                "A spell can be removed from your skin by spending 100 gp of enchanted soaps and 2 hours scrubbing. Only 1 spell can be inscribed in a given portion of your body at a time."
+            ]
+        },
+        {
+            "name": "Compose Boon",
+            "source": "RealmsAcrossTime",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Inscription",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "When you cast a spell of 3rd level or lower with a range of Self or Touch in which you choose yourself as the target, you may spend 1 minute to write the name of the spell or an appropriate word to describe it upon your body. While a spell is inscribed this way, you are considered concentrating on it. When you make a concentration check, the DC for success is increased by 5 for each spell you are concentrating on beyond the first. When your concentration is broken all spells you were concentrating on end. If a spell written upon your body ends, the inscription fades from your flesh."
+            ]
+        },
+        {
+            "name": "True Statement",
+            "source": "RealmsAcrossTime",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Inscription",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "When you gain this feature you may choose a word or statement that speaks to the core essence of your being. That word or statement is magically inscribed permanently upon your skin by ink, scarring, or another appropriate method of your choosing.",
+                "Choose a spell of 3rd level or lower that fits thematically with that statement and has a range of Self or Touch. For example, one might choose “nobody notices me” for the statement, and choose Invisibility for the spell. This spell can be from any class’ spell list or school of magic and you are considered to always have this spell prepared. You may cast this spell without somatic or verbal components, or expending a spell slot. If the spell has a range of Touch, you must choose yourself as the target. You may use this feature two times, regaining spent uses after finishing a long rest."
+            ]
+        },
+        {
+            "name": "Branding Incantation",
+            "source": "RealmsAcrossTime",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Inscription",
+            "subclassSource": "RealmsAcrossTime",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "When you cast a spell of 5th-level or lower with a range of Touch, a duration of Instantaneous, and you either hit with an attack roll or the target fails a saving throw for that spell, you may mark the target’s skin with the words and sigils of the spell.",
+                "At the beginning of their turn, any creatures marked in such a way must make a Charisma saving throw against your spell save DC. On a failure, they are affected by the spell marked on them once more, but all attack rolls automatically hit and they automatically fail any required saving throws for that spell. On a success, the mark fades and there is no effect.",
+                "You may use this feature a number of times equal to your Intelligence modifier, to a minimum of 1. You regain all spent uses when you finish a long rest."
             ]
         }
     ]
